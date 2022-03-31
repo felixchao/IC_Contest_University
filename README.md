@@ -1,2 +1,2 @@
-# IC_Contest_Graduate
+# IC_Contest_Universe
 RTL Code
