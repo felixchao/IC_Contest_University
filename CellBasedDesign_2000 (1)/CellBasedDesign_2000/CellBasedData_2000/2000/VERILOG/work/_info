@@ -1,0 +1,41 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Program Files\0117\ICC2008_priliminary_grad_cell_data\icc2008
+vavg
+Z1 !s100 a5zdV0Reo^3I;iiY[^1S31
+Z2 Ia?KJ`WPh5BKfFW0H3z9lL2
+Z3 VN>>7?H<0UJJiBjXeL2Rbo0
+Z4 dC:\Program Files\0117\CellBasedDesign_2000 (1)\CellBasedDesign_2000\CellBasedData_2000\2000\VERILOG
+Z5 w1142415598
+Z6 8C:/Program Files/0117/CellBasedDesign_2000 (1)/CellBasedDesign_2000/CellBasedData_2000/2000/VERILOG/avg.v
+Z7 FC:/Program Files/0117/CellBasedDesign_2000 (1)/CellBasedDesign_2000/CellBasedData_2000/2000/VERILOG/avg.v
+L0 1
+Z8 OL;L;10.1c;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|-vopt|C:/Program Files/0117/CellBasedDesign_2000 (1)/CellBasedDesign_2000/CellBasedData_2000/2000/VERILOG/avg.v|
+Z10 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s85 0
+Z11 !s108 1642732195.449000
+Z12 !s107 C:/Program Files/0117/CellBasedDesign_2000 (1)/CellBasedDesign_2000/CellBasedData_2000/2000/VERILOG/avg.v|
+vtest
+!i10b 1
+!s100 0XkNQjd>EcEj9;0i0b3Mo2
+IBWO=U]k@B67lbmPn@E0>X2
+Vk<3<[f=78GX=_HO53D;7>3
+R4
+w1642732187
+8C:/Program Files/0117/CellBasedDesign_2000 (1)/CellBasedDesign_2000/CellBasedData_2000/2000/VERILOG/test.v
+FC:/Program Files/0117/CellBasedDesign_2000 (1)/CellBasedDesign_2000/CellBasedData_2000/2000/VERILOG/test.v
+L0 12
+R8
+r1
+!s85 0
+31
+!s108 1642732195.505000
+!s107 C:/Program Files/0117/CellBasedDesign_2000 (1)/CellBasedDesign_2000/CellBasedData_2000/2000/VERILOG/test.v|
+!s90 -reportprogress|300|-work|work|-vopt|C:/Program Files/0117/CellBasedDesign_2000 (1)/CellBasedDesign_2000/CellBasedData_2000/2000/VERILOG/test.v|
+R10

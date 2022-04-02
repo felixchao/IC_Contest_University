@@ -1,0 +1,13 @@
+FTP帳號: 60001
+
+--- RTL category---
+使用之HDL語言:  	Verilog
+使用之合成器: 		Quartus II
+使用之晶片型號：	EP4CE30F23C6
+RTL檔案名稱(RTL filename):             TOP.v, sub1.v, sub2.v
+Post-layout gate-level Netlist:	TOP.vo, TOP_v.sdo
+Report:	report_001.txt (此次為第一次上傳)
+
+-----注意事項(annotation)--------------------------------------------------------
+ (其餘注意事項依各參賽隊伍的需求填寫，非為必要部份)
+ TOP電路RTL設計檔之Top module為TOP，位於TOP.v內

@@ -1,0 +1,68 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Program Files\0117\2005
+T_opt
+V:c`5V]JP:DMKQ0NZPKg_92
+04 4 4 work test fast 0
+=1-002b67e21689-6210794d-3bc-2a04
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.1c;51
+Z1 dC:\Program Files\0117\2005
+vavg
+VN>>7?H<0UJJiBjXeL2Rbo0
+r1
+31
+IOSR_SnjXgI1NP@zzm;YE]2
+Z2 dC:\Program Files\0117\ICC2008_priliminary_grad_cell_data\icc2008
+w1642830020
+8C:/Program Files/0117/CellBasedDesign_2000 (1)/CellBasedDesign_2000/CellBasedData_2000/2000/VERILOG/avg.v
+FC:/Program Files/0117/CellBasedDesign_2000 (1)/CellBasedDesign_2000/CellBasedData_2000/2000/VERILOG/avg.v
+L0 1
+Z3 OL;L;10.1c;51
+Z4 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 _bT<M;K<WzRE;`T>VVXL_1
+!s90 -reportprogress|300|-work|work|-vopt|C:/Program Files/0117/CellBasedDesign_2000 (1)/CellBasedDesign_2000/CellBasedData_2000/2000/VERILOG/avg.v|
+!s108 1642830037.438000
+!s107 C:/Program Files/0117/CellBasedDesign_2000 (1)/CellBasedDesign_2000/CellBasedData_2000/2000/VERILOG/avg.v|
+!s85 0
+!i10b 1
+vLCD_CTRL
+VCkOjfM;WanLkU_V3Djk>G0
+r1
+!s85 0
+31
+Ih1jl3bGFHeA1h2zBSgNHD3
+R2
+w1645246956
+8C:/Program Files/0117/ICC2008_priliminary_grad_cell_data/icc2008/lcd_ctrl.v
+FC:/Program Files/0117/ICC2008_priliminary_grad_cell_data/icc2008/lcd_ctrl.v
+L0 2
+R3
+R4
+n@l@c@d_@c@t@r@l
+!s90 -reportprogress|300|-work|work|-vopt|C:/Program Files/0117/ICC2008_priliminary_grad_cell_data/icc2008/lcd_ctrl.v|
+!s100 SMUB<C7DaNBiZSJiEzd[J3
+!s108 1645246964.574000
+!s107 C:/Program Files/0117/ICC2008_priliminary_grad_cell_data/icc2008/lcd_ctrl.v|
+!i10b 1
+vtest
+VT41cKRO7_MK>VWe9ZM?]I2
+r1
+31
+IJSd9:V?7G`XiN7kKEemRf0
+R2
+w1643120705
+8C:/Program Files/0117/ICC2008_priliminary_grad_cell_data/icc2008/testfixture.v
+FC:/Program Files/0117/ICC2008_priliminary_grad_cell_data/icc2008/testfixture.v
+L0 8
+R3
+R4
+!s85 0
+!s100 U3<n^b;=@8CJcS92nEiFM1
+!s90 -reportprogress|300|-work|work|-vopt|C:/Program Files/0117/ICC2008_priliminary_grad_cell_data/icc2008/testfixture.v|
+!i10b 1
+!s108 1645246964.626000
+!s107 C:/Program Files/0117/ICC2008_priliminary_grad_cell_data/icc2008/testfixture.v|

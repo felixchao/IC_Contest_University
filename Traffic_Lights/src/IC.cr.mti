@@ -1,0 +1,29 @@
+{C:/Program Files/0117/Traffic_Lights/src/traffic_light_tb.v} {1 {vlog -work work -vopt {C:/Program Files/0117/Traffic_Lights/src/traffic_light_tb.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module traffic_light_tb
+
+Top level modules:
+	traffic_light_tb
+
+} {} {}} {C:/Program Files/0117/F74096069/src/traffic_light.v} {1 {vlog -work work -vopt {C:/Program Files/0117/F74096069/src/traffic_light.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module traffic_light
+
+Top level modules:
+	traffic_light
+
+} {} {}} {C:/Program Files/0117/F74096069/src/traffic_light_tb.v} {1 {vlog -work work -vopt {C:/Program Files/0117/F74096069/src/traffic_light_tb.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module traffic_light_tb
+
+Top level modules:
+	traffic_light_tb
+
+} {} {}} {C:/Program Files/0117/Traffic_Lights/src/traffic_light.v} {1 {vlog -work work -vopt {C:/Program Files/0117/Traffic_Lights/src/traffic_light.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module traffic_light
+
+Top level modules:
+	traffic_light
+
+} {} {}}

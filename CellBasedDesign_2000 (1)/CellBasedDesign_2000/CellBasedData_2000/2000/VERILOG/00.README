@@ -1,0 +1,14 @@
+1. This directory contains 6 files:
+	00.README	This file
+	avg.v   	The decalaration of the avg module
+        test.v          testfixture file
+        avg_setup.dc    SYNOPSYS environment setup file
+        IN.DAT          input and expect result data
+        report.000	report file
+
+2. To test your circuit's performance you can change the clock
+   period by modifing the definition "HALF_CYCLE" in test.v.
+   clock period = HALF_CYCLE * 2
+
+3. For gate-level simulation you must generate the sdf file by using
+   SYNOPSYS and the avg_setup.dc file.  

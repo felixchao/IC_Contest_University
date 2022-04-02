@@ -1,0 +1,15 @@
+{C:/Program Files/F74096069/src/CS.v} {1 {vlog -work work -vopt {C:/Program Files/F74096069/src/CS.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module CS
+
+Top level modules:
+	CS
+
+} {} {}} {C:/Program Files/F74096069/src/testfixture.v} {1 {vlog -work work -vopt {C:/Program Files/F74096069/src/testfixture.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}}

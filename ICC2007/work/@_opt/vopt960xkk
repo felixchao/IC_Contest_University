@@ -1,0 +1,49 @@
+m255
+K3
+13
+cModel Technology
+dC:\modeltech64_10.1c\examples
+T_opt
+V_1B3jW[ed8QSZ;FaHD:OC2
+04 4 4 work test fast 0
+=1-002b67e21689-61ebc51b-2e8-4690
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.1c;51
+vLCD_CTRL
+Ig]SnFg6<HA9j0gz?4nF0g2
+VVlem_d@MdF`oP8Hc]Zm5G3
+Z0 dC:\Program Files\0117\ICC2007
+w1642841332
+8C:/Program Files/0117/ICC2007/lcd_ctrl.v
+FC:/Program Files/0117/ICC2007/lcd_ctrl.v
+L0 1
+Z1 OL;L;10.1c;51
+r1
+31
+!s90 -reportprogress|300|-work|work|-vopt|C:/Program Files/0117/ICC2007/lcd_ctrl.v|
+Z2 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@l@c@d_@c@t@r@l
+!s100 3DZ8DE?mXDJNo^<d3Z`RT1
+!s108 1642841354.526000
+!s107 C:/Program Files/0117/ICC2007/lcd_ctrl.v|
+!i10b 1
+!s85 0
+vtest
+!s100 bAQAg;Q56Tz39@9fNRdb83
+I@`46bUjZ8JcdZI77BNK4h2
+VEN<0k3_TMi:E4aP^Jghol3
+Z3 dC:\Program Files\0117\ICC2007
+w1642840997
+8C:/Program Files/0117/ICC2007/testfixture.v
+FC:/Program Files/0117/ICC2007/testfixture.v
+L0 8
+R1
+r1
+31
+!s90 -reportprogress|300|-work|work|-vopt|C:/Program Files/0117/ICC2007/testfixture.v|
+R2
+!i10b 1
+!s85 0
+!s108 1642841354.666000
+!s107 C:/Program Files/0117/ICC2007/testfixture.v|

@@ -1,0 +1,378 @@
+module LCD_CTRL(clk,reset,datain,cmd,cmd_valid,dataout,output_valid,busy); 
+ 
+input clk; 
+input reset; 
+input [7:0] datain; 
+input [2:0] cmd; 
+input cmd_valid; 
+output [7:0] dataout; 
+output output_valid; 
+output busy; 
+ 
+`define T_REG_DELAY 0.5 
+parameter [0:0] //synopsys enum state_info 
+ RST = 1'b0, 
+ CMD_MODE = 1'b1; 
+ 
+reg current_state, 
+ next_state; 
+ 
+reg output_valid, 
+ busy; 
+reg magnifi, 
+ zoomout; 
+reg [2:0] x_addr, 
+ y_addr, 
+ cmd_use; 
+reg [6:0] pc; 
+reg [7:0] dataout; 
+reg [7:0] image_buf[0:63]; 
+reg [7:0] output_buf[0:15]; 
+integer i; 
+ 
+always@(posedge clk or posedge reset) 
+begin 
+ //synopsys translate_off 
+ #(`T_REG_DELAY); 
+//synopsys translate_on 
+if(reset==1'b1) 
+ begin 
+ current_state <= RST; 
+ end 
+ else 
+ begin 
+ current_state <= next_state; 
+ end 
+end 
+always@(reset or current_state or cmd_valid) 
+begin 
+ case(current_state) 
+ RST: 
+ begin 
+ if(cmd_valid == 1'b0) 
+ next_state = current_state; 
+ else 
+ next_state = CMD_MODE; 
+ end 
+ CMD_MODE:next_state = current_state; 
+ endcase 
+end 
+always@(posedge clk) 
+begin 
+ //synopsys translate_off 
+ #(`T_REG_DELAY); 
+ //synopsys translate_on 
+ case(current_state) 
+ RST: 
+ begin 
+ x_addr <= 3'b0; 
+ y_addr <= 3'b0; 
+ pc <= 7'h01; 
+ busy <= 1'b0; 
+ cmd_use <= cmd; 
+ zoomout <= 1'b0; 
+ dataout <= 8'h0; 
+ magnifi <= 1'b0; 
+ 
+ for(i=0;i<64;i=i+1) 
+ image_buf[i] <= 8'b0; 
+ 
+ for(i=0;i<16;i=i+1) 
+ output_buf[i]<= 8'b0; 
+ end 
+ CMD_MODE: 
+ begin 
+ if(cmd_valid == 1'b1) 
+ begin 
+ if(zoomout == 1'b1 && cmd[2] == 1'b1) 
+ cmd_use <= 3'b011; 
+ else if(cmd_use == 3'b011 && cmd[2]==1'b1) 
+ cmd_use <= 3'b011; 
+ else 
+ cmd_use <= cmd; 
+ end 
+ else 
+ cmd_use <= cmd_use; 
+ 
+ if(cmd_use == 3'b011 && cmd[2:1] != 2'b01) 
+ zoomout <= 1'b1; 
+ else if(cmd_use == 3'b010) 
+ zoomout <= 1'b0; 
+ else 
+ zoomout <= zoomout; 
+ 
+ 
+ if(cmd_use == 3'b001) 
+ begin 
+ case(pc) 
+ 7'h42:dataout <= output_buf[0]; 
+ 7'h43:dataout <= output_buf[1]; 
+ 7'h44:dataout <= output_buf[2]; 
+ 7'h45:dataout <= output_buf[3]; 
+ 7'h46:dataout <= output_buf[4]; 
+ 7'h47:dataout <= output_buf[5]; 
+ 7'h48:dataout <= output_buf[6]; 
+ 7'h49:dataout <= output_buf[7]; 
+ 7'h4a:dataout <= output_buf[8]; 
+ 7'h4b:dataout <= output_buf[9]; 
+ 7'h4c:dataout <= output_buf[10]; 
+ 7'h4d:dataout <= output_buf[11]; 
+ 7'h4e:dataout <= output_buf[12]; 
+ 7'h4f:dataout <= output_buf[13]; 
+ 7'h50:dataout <= output_buf[14]; 
+ 7'h51:dataout <= output_buf[15]; 
+ default:dataout<= dataout; 
+ endcase 
+ end 
+ else 
+ begin 
+ case(pc) 
+ 7'h03:dataout <= output_buf[0]; 
+ 7'h04:dataout <= output_buf[1]; 
+ 7'h05:dataout <= output_buf[2]; 
+ 7'h06:dataout <= output_buf[3]; 
+ 7'h07:dataout <= output_buf[4]; 
+ 7'h08:dataout <= output_buf[5]; 
+ 7'h09:dataout <= output_buf[6]; 
+ 7'h0a:dataout <= output_buf[7]; 
+ 7'h0b:dataout <= output_buf[8]; 
+ 7'h0c:dataout <= output_buf[9]; 
+ 7'h0d:dataout <= output_buf[10]; 
+ 7'h0e:dataout <= output_buf[11]; 
+ 7'h0f:dataout <= output_buf[12]; 
+ 7'h10:dataout <= output_buf[13]; 
+ 7'h11:dataout <= output_buf[14]; 
+ 7'h12:dataout <= output_buf[15]; 
+ default:dataout<= dataout; 
+ endcase 
+ end 
+ 
+ 
+ if((cmd_use == 3'b001) && pc <= 7'h51) //LOADDATA 
+ begin 
+ if(pc == 7'h51) 
+ begin 
+ pc <= 7'b0; 
+ busy<= 1'b0; 
+ end 
+ else 
+ begin 
+ pc <= pc + 1'b1; 
+ busy <= 1'b1; 
+ end 
+ 
+ if(pc >= 7'h42) 
+ output_valid <= 1'b1; 
+ else 
+ output_valid <= 1'b0; 
+ 
+ x_addr <= x_addr; 
+ y_addr <= y_addr; 
+ 
+ magnifi <= 1'b0; 
+ 
+ if(pc <= 7'h40 && pc >=7'h01 ) 
+ begin 
+ image_buf[63] <= datain; 
+ for(i=62;i>=0;i=i-1) 
+ image_buf[i] <= image_buf[i+1]; 
+ end 
+ else 
+ for(i=0;i<64;i=i+1) 
+ image_buf[i] <= image_buf[i]; 
+ if(pc >7'h3f) 
+ begin 
+ output_buf[0] <= image_buf[0] ; 
+ output_buf[1] <= image_buf[2] ; 
+ output_buf[2] <= image_buf[4] ; 
+ output_buf[3] <= image_buf[6] ; 
+ output_buf[4] <= image_buf[16]; 
+ output_buf[5] <= image_buf[18]; 
+ output_buf[6] <= image_buf[20]; 
+ output_buf[7] <= image_buf[22]; 
+ output_buf[8] <= image_buf[32]; 
+ output_buf[9] <= image_buf[34]; 
+ output_buf[10]<= image_buf[36]; 
+ output_buf[11]<= image_buf[38]; 
+ output_buf[12]<= image_buf[48]; 
+ output_buf[13]<= image_buf[50]; 
+ output_buf[14]<= image_buf[52]; 
+ output_buf[15]<= image_buf[54]; 
+ end 
+ else 
+ begin 
+ for(i=0;i<16;i=i+1) 
+ output_buf[i]<=output_buf[i]; 
+ end 
+ end 
+ else 
+ begin 
+ for(i=0;i<64;i=i+1) 
+ image_buf[i]<=image_buf[i]; 
+ 
+ if((cmd_use == 3'b000) && pc <= 7'h12) //ReFlash 
+ begin 
+ if(pc == 7'h12) 
+ begin 
+ pc <= 7'b0; 
+ busy <= 1'b0; 
+ end 
+ else 
+ begin 
+ pc <= pc + 1'b1; 
+ busy <= 1'b1; 
+ end 
+ 
+ if(pc >= 7'h03) 
+ output_valid <= 1'b1; 
+ else 
+ output_valid <= 1'b0; 
+ x_addr <= x_addr; 
+ y_addr <= y_addr; 
+ magnifi <= magnifi; 
+ for(i=0;i<16;i=i+1) 
+ output_buf[i]<=output_buf[i]; 
+ end 
+ else if((cmd_use[2:1] == 2'b01) && (pc <= 7'h12)) //ZOOM IN / ZOOM OUT 
+ begin 
+ if(pc == 7'h12) 
+ begin 
+ busy <= 1'b0; 
+ pc <= 7'b0; 
+ end 
+ else 
+ begin 
+ busy <= 1'b1; 
+ pc <= pc + 1'b1; 
+ end 
+ if( pc >= 7'h03) 
+ output_valid <= 1'b1; 
+ else 
+ output_valid <= 1'b0; 
+ magnifi <= ~cmd_use[0]; 
+ if(magnifi == 1'b0) 
+ begin 
+ x_addr <= 3'b0; 
+ y_addr <= 3'b0; 
+ output_buf[0] <= image_buf[0] ; 
+ output_buf[1] <= image_buf[2] ; 
+ output_buf[2] <= image_buf[4] ; 
+ output_buf[3] <= image_buf[6] ; 
+ output_buf[4] <= image_buf[16]; 
+ output_buf[5] <= image_buf[18]; 
+ output_buf[6] <= image_buf[20]; 
+ output_buf[7] <= image_buf[22]; 
+ output_buf[8] <= image_buf[32]; 
+ output_buf[9] <= image_buf[34]; 
+ output_buf[10]<= image_buf[36]; 
+ output_buf[11]<= image_buf[38]; 
+ output_buf[12]<= image_buf[48]; 
+ output_buf[13]<= image_buf[50]; 
+ output_buf[14]<= image_buf[52]; 
+ output_buf[15]<= image_buf[54]; 
+ end 
+ else 
+ begin 
+ x_addr <= 3'b010; 
+ y_addr <= 3'b010; 
+ output_buf[0] <= image_buf[18]; 
+ output_buf[1] <= image_buf[19]; 
+ output_buf[2] <= image_buf[20]; 
+ output_buf[3] <= image_buf[21]; 
+ output_buf[4] <= image_buf[26]; 
+ output_buf[5] <= image_buf[27]; 
+ output_buf[6] <= image_buf[28]; 
+ output_buf[7] <= image_buf[29]; 
+ output_buf[8] <= image_buf[34]; 
+ output_buf[9] <= image_buf[35]; 
+ output_buf[10]<= image_buf[36]; 
+ output_buf[11]<= image_buf[37]; 
+ output_buf[12]<= image_buf[42]; 
+ output_buf[13]<= image_buf[43]; 
+ output_buf[14]<= image_buf[44]; 
+ output_buf[15]<= image_buf[45]; 
+ end 
+ end 
+ else //SHIRFT 
+ begin 
+ if(pc == 7'h12) 
+ begin 
+ busy <= 1'b0; 
+ pc <= 7'b0; 
+ end 
+ else 
+ begin 
+ busy <= 1'b1; 
+ pc <= pc + 1'b1; 
+ end 
+ 
+ if(pc >= 7'h03) 
+ output_valid <= 1'b1; 
+ else 
+ output_valid <= 1'b0; 
+ magnifi <= magnifi; 
+ if(pc == 7'h1 ) 
+ begin 
+ if(cmd_use[1:0] == 2'b00) 
+ begin 
+ if(x_addr == 3'b100) 
+ x_addr <= x_addr; 
+ else 
+ x_addr <= x_addr + 1'b1; 
+ y_addr <= y_addr; 
+ end 
+ else if(cmd_use[1:0] == 2'b01) 
+ begin 
+ if(x_addr == 2'b00) 
+ x_addr <= x_addr; 
+ else 
+ x_addr <= x_addr - 1'b1; 
+ y_addr <= y_addr; 
+ end 
+ else if(cmd_use[1:0] == 2'b10) 
+ begin 
+ if(y_addr == 2'b00) 
+ y_addr <= y_addr; 
+ else 
+ y_addr <= y_addr - 1'b1; 
+ x_addr <= x_addr; 
+ end 
+ else 
+ begin 
+ if(y_addr == 3'b100) 
+ y_addr <= y_addr; 
+ else 
+ y_addr <= y_addr + 1'b1; 
+ x_addr <= x_addr; 
+ end 
+ end 
+ else 
+ begin 
+ x_addr <= x_addr; 
+ y_addr <= y_addr; 
+ end 
+ 
+ output_buf[0] <= image_buf[8*y_addr+x_addr]; 
+ output_buf[1] <= image_buf[8*y_addr+x_addr+1]; 
+ output_buf[2] <= image_buf[8*y_addr+x_addr+2]; 
+ output_buf[3] <= image_buf[8*y_addr+x_addr+3]; 
+ output_buf[4] <= image_buf[8*(y_addr+1)+x_addr]; 
+ output_buf[5] <= image_buf[8*(y_addr+1)+x_addr+1]; 
+ output_buf[6] <= image_buf[8*(y_addr+1)+x_addr+2]; 
+ output_buf[7] <= image_buf[8*(y_addr+1)+x_addr+3]; 
+ output_buf[8] <= image_buf[8*(y_addr+2)+x_addr]; 
+ output_buf[9] <= image_buf[8*(y_addr+2)+x_addr+1]; 
+ output_buf[10]<= image_buf[8*(y_addr+2)+x_addr+2]; 
+ output_buf[11]<= image_buf[8*(y_addr+2)+x_addr+3]; 
+ output_buf[12]<= image_buf[8*(y_addr+3)+x_addr]; 
+ output_buf[13]<= image_buf[8*(y_addr+3)+x_addr+1]; 
+ output_buf[14]<= image_buf[8*(y_addr+3)+x_addr+2]; 
+ output_buf[15]<= image_buf[8*(y_addr+3)+x_addr+3]; 
+ end 
+ end 
+ end 
+ 
+ endcase 
+end 
+ 
+endmodule

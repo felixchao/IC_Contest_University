@@ -1,0 +1,46 @@
+/******************************************************
+
+  Created by write_script() on Wed May  3 10:18:30 2000
+
+******************************************************/
+
+/* Set the current_design */
+current_design avg
+
+set_local_link_library {cb35os142.db}
+set_operating_conditions "NCCOM" -library "cb35os142"
+set_wire_load 
+set_drive 1 find(port,"din[15]")
+set_drive 1 find(port,"din[14]")
+set_drive 1 find(port,"din[13]")
+set_drive 1 find(port,"din[12]")
+set_drive 1 find(port,"din[11]")
+set_drive 1 find(port,"din[10]")
+set_drive 1 find(port,"din[9]")
+set_drive 1 find(port,"din[8]")
+set_drive 1 find(port,"din[7]")
+set_drive 1 find(port,"din[6]")
+set_drive 1 find(port,"din[5]")
+set_drive 1 find(port,"din[4]")
+set_drive 1 find(port,"din[3]")
+set_drive 1 find(port,"din[2]")
+set_drive 1 find(port,"din[1]")
+set_drive 1 find(port,"din[0]")
+set_drive 1 find(port,"reset")
+set_load -pin_load 1 find(port, "ready")
+set_load -pin_load 1 find(port, "dout[15]")
+set_load -pin_load 1 find(port, "dout[14]")
+set_load -pin_load 1 find(port, "dout[13]")
+set_load -pin_load 1 find(port, "dout[12]")
+set_load -pin_load 1 find(port, "dout[11]")
+set_load -pin_load 1 find(port, "dout[10]")
+set_load -pin_load 1 find(port, "dout[9]")
+set_load -pin_load 1 find(port, "dout[8]")
+set_load -pin_load 1 find(port, "dout[7]")
+set_load -pin_load 1 find(port, "dout[6]")
+set_load -pin_load 1 find(port, "dout[5]")
+set_load -pin_load 1 find(port, "dout[4]")
+set_load -pin_load 1 find(port, "dout[3]")
+set_load -pin_load 1 find(port, "dout[2]")
+set_load -pin_load 1 find(port, "dout[1]")
+set_load -pin_load 1 find(port, "dout[0]")

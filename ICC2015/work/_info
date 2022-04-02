@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+dC:\Program Files\0117\ICC2015\dat
+vSET
+VzdIjaWhdX3>aOnDAWlZ]Y2
+r1
+31
+I@0GgXI=XgGZcSmP:ZbdbX2
+Z0 dC:\Program Files\0117\ICC2015
+w1645787379
+8C:/Program Files/0117/ICC2015/SET.v
+FC:/Program Files/0117/ICC2015/SET.v
+L0 3
+Z1 OL;L;10.1c;51
+o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@s@e@t
+!s90 -reportprogress|300|-work|work|-vopt|C:/Program Files/0117/ICC2015/SET.v|
+!s100 E`z`go1`jdm>025j0<@iz1
+!s108 1645787408.616000
+!s107 C:/Program Files/0117/ICC2015/SET.v|
+!s85 0
+!i10b 1
+vtestfixture1
+VWP0=oXMOeYWB]IV3[4WoU2
+r1
+!s85 0
+31
+I@9EX1F^l3>`dALLglX:IV3
+Z2 dC:\Program Files\0117\ICC2015
+w1426125657
+8testfixture.v
+Ftestfixture.v
+L0 7
+R1
+o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s100 L[VefW0^l?ObMQgijiol[1
+!s108 1645787561.448000
+!s107 testfixture.v|
+!s90 -reportprogress|300|testfixture.v|+define+MD1|
+!s92 +define+MD1 -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF

@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+dC:\Program Files\0117\2019
+vJAM
+VfQ0fWc<9@f58]bl4D>?0E0
+r1
+!s85 0
+31
+IEEjTh8>z[JIf<c;z1F>Xn0
+Z0 dC:\Program Files\0117\2022_univ_cell
+w1648632576
+8C:/Program Files/0117/2022_univ_cell/JAM.v
+FC:/Program Files/0117/2022_univ_cell/JAM.v
+L0 1
+Z1 OL;L;10.1c;51
+o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@j@a@m
+!s100 J]KYh3LL_AIjW==6_ao6]2
+!s108 1648632750.149000
+!s107 C:/Program Files/0117/2022_univ_cell/JAM.v|
+!s90 -reportprogress|300|-work|work|-vopt|C:/Program Files/0117/2022_univ_cell/JAM.v|
+!i10b 1
+vtestfixture
+DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+VKBIIT=eCh7cJh[^JXBGX00
+r1
+31
+IXdHkb9W0J;CNTnbdje72`1
+S1
+Z2 dC:\Program Files\0117\2022_univ_cell
+w1648611970
+8C:/Program Files/0117/2022_univ_cell/tb.sv
+FC:/Program Files/0117/2022_univ_cell/tb.sv
+L0 18
+R1
+o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s85 0
+!s105 tb_sv_unit
+!i10b 1
+!s100 `@diB@FlIGEmJ<E^T<QW]3
+!s108 1648632750.208000
+!s107 C:/Program Files/0117/2022_univ_cell/tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|C:/Program Files/0117/2022_univ_cell/tb.sv|

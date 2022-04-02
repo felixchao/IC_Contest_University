@@ -1,0 +1,50 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Program Files\IC Contest
+T_opt
+VFk5e=YUT2VV1oePgW1JLU1
+04 4 4 work test fast 0
+=1-002b67e21689-620db384-1f7-57c0
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.1c;51
+Z1 dC:\Program Files\IC Contest
+vCS
+VP;1JL3cV6P64E9h7iYOML3
+r1
+!s85 0
+31
+I9F>on6z08oVFfzUS82R>l2
+Z2 dC:\Program Files\0117\2005
+w1646146827
+8C:/Program Files/0117/2005/CS.v
+FC:/Program Files/0117/2005/CS.v
+L0 5
+Z3 OL;L;10.1c;51
+Z4 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@c@s
+!s100 UegEnkPBfKESeZMbm:SSH1
+!s90 -reportprogress|300|-work|work|-vopt|C:/Program Files/0117/2005/CS.v|
+!s108 1646147527.312000
+!s107 C:/Program Files/0117/2005/CS.v|
+!i10b 1
+vtest
+V@g1G_[E5?I1a0ikSeP7JF3
+r1
+31
+I2Eea]Ti:7[Yn9bhSe[LbW0
+R2
+w1646147362
+8C:/Program Files/0117/2005/testfixture.v
+FC:/Program Files/0117/2005/testfixture.v
+L0 7
+R3
+R4
+!s85 0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Program Files/0117/2005/testfixture.v|
+!i10b 1
+!s100 P6HBnH[conGH3D[>gl^HF1
+!s108 1646147527.359000
+!s107 C:/Program Files/0117/2005/testfixture.v|

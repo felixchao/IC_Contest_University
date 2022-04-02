@@ -1,0 +1,24 @@
+隊號(Team number):
+
+使用之HDL名稱(Verilog or VHDL):
+RTL檔案名稱(RTL Netlist file name):
+Gate-Level檔案名稱(Gate-Level Netlist file name):
+設計資料庫檔案名稱(Cadence Library name):
+佈局檔檔案名稱(GDSII file name):
+Top cell name:
+
+Dracula DRC summary file name(*.sum):
+Dracula LVS report file name(*.lvs):
+
+佈局座標點- 左下角座標點(Lower-Left Coordinate) :  
+            XLB =                  YLB =
+            右上角座標點(Upper-Right Coordinate):
+            XRT =                  YRT = 
+
+佈局面積(core area) =  (              ) um  X (               ) um
+GATE LEVEL simulation, 所使用最小的 HALF_CYCLE_TIME  = (                ) ns
+GATE LEVEL simulation, START 上緣到FINISH 上緣的時間 = (                ) ns
+
+其他說明事項(Any other information you want to specify:(如設計特點 ...)
+
+

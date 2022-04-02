@@ -1,0 +1,42 @@
+m255
+K3
+13
+cModel Technology
+dC:\modeltech64_10.1c\examples
+vCONV
+VG]KQ=;e3iS[c0fd0:li3l2
+r1
+!s85 0
+31
+In2zHN6CA<Ck8RT_9Q4HXX2
+Z0 dC:\Program Files\IC_Contest\2019
+w1648544417
+8C:/Program Files/IC_Contest/2019/CONV.v
+FC:/Program Files/IC_Contest/2019/CONV.v
+L0 4
+Z1 OL;L;10.1c;51
+Z2 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@c@o@n@v
+!s100 Td6PNcdKObX8C7b^zP[n?1
+!s108 1648732928.046000
+!s107 C:/Program Files/IC_Contest/2019/CONV.v|
+!s90 -reportprogress|300|-work|work|-vopt|C:/Program Files/IC_Contest/2019/CONV.v|
+!i10b 1
+vtestfixture
+VKBIIT=eCh7cJh[^JXBGX00
+r1
+31
+IIHk<i@jmSoWcjmM>`cQYe1
+Z3 dC:\Program Files\IC_Contest\2019
+w1648526083
+8C:/Program Files/IC_Contest/2019/testfixture.v
+FC:/Program Files/IC_Contest/2019/testfixture.v
+L0 11
+R1
+R2
+!s85 0
+!i10b 1
+!s100 [G276>aWPb[MH4jVEXVUc2
+!s108 1648732928.115000
+!s107 C:/Program Files/IC_Contest/2019/testfixture.v|
+!s90 -reportprogress|300|-work|work|-vopt|C:/Program Files/IC_Contest/2019/testfixture.v|
