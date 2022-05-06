@@ -1,0 +1,24 @@
+{C:/Program Files/IC_Contest/IC_Contest_University/F740XXXXX/src/SRAM.v} {1 {vlog -work work -vopt {C:/Program Files/IC_Contest/IC_Contest_University/F740XXXXX/src/SRAM.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module SRAM
+
+Top level modules:
+	SRAM
+
+} {} {}} {C:/Program Files/IC_Contest/IC_Contest_University/F740XXXXX/src/top.v} {1 {vlog -work work -vopt {C:/Program Files/IC_Contest/IC_Contest_University/F740XXXXX/src/top.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module CPU
+-- Compiling module SRAM
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} {C:/Program Files/IC_Contest/IC_Contest_University/F740XXXXX/src/top_tb.v} {1 {vlog -work work -vopt {C:/Program Files/IC_Contest/IC_Contest_University/F740XXXXX/src/top_tb.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module top_tb
+
+Top level modules:
+	top_tb
+
+} {} {}}

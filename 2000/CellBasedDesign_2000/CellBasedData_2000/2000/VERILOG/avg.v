@@ -18,7 +18,7 @@ reg [3:0] count;
 
 initial begin
     ready <= 0;
-    count <=0;
+    count <= 0;
 end
 
 always@(posedge clk or posedge reset)
