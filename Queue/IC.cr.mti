@@ -1,16 +1,16 @@
-{C:/Program Files/IC_Contest/IC_Contest_University/Queue/Queue.v} {1 {vlog -work work -vopt {C:/Program Files/IC_Contest/IC_Contest_University/Queue/Queue.v}
-Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
--- Compiling module Queue
-
-Top level modules:
-	Queue
-
-} {} {}} {C:/Program Files/IC_Contest/IC_Contest_University/Queue/tb_Queue.sv} {1 {vlog -work work -vopt -sv {C:/Program Files/IC_Contest/IC_Contest_University/Queue/tb_Queue.sv}
+{C:/Program Files/IC_Contest/IC_Contest_University/Queue/tb_Queue.sv} {1 {vlog -work work -vopt -sv {C:/Program Files/IC_Contest/IC_Contest_University/Queue/tb_Queue.sv}
 Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
 -- Compiling module Queue
 -- Compiling module tb_Queue
 
 Top level modules:
 	tb_Queue
+
+} {} {}} {C:/Program Files/IC_Contest/IC_Contest_University/Queue/Queue.v} {1 {vlog -work work -vopt {C:/Program Files/IC_Contest/IC_Contest_University/Queue/Queue.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module Queue
+
+Top level modules:
+	Queue
 
 } {} {}}

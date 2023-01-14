@@ -1,0 +1,20 @@
+{C:/Program Files/IC_Contest/IC_Contest_University/2018/LCD_CTRL.v} {1 {vlog -work work -vopt {C:/Program Files/IC_Contest/IC_Contest_University/2018/LCD_CTRL.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module LCD_CTRL
+
+Top level modules:
+	LCD_CTRL
+
+} {} {}} {C:/Program Files/IC_Contest/IC_Contest_University/2018/testfixture.v} {0 {vlog -work work -vopt {C:/Program Files/IC_Contest/IC_Contest_University/2018/testfixture.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module test
+** Error: C:/Program Files/IC_Contest/IC_Contest_University/2018/testfixture.v(74): (vlog-2163) Macro `CMD is undefined.
+
+** Error: C:/Program Files/IC_Contest/IC_Contest_University/2018/testfixture.v(75): (vlog-2163) Macro `EXPECT is undefined.
+
+-- Compiling module IROM
+** Error: C:/Program Files/IC_Contest/IC_Contest_University/2018/testfixture.v(177): (vlog-2163) Macro `IMAGE is undefined.
+
+-- Compiling module IRAM
+
+} {4.0 5.0 6.0 7.0 9.0 10.0} {}}

@@ -1,0 +1,83 @@
+m255
+K3
+13
+cModel Technology
+dC:\Program Files\IC_Contest\IC_Contest_University\2022_univ_cell
+vIRAM
+V<@Ffj1cn60zcz7;=HAIWo0
+r1
+31
+If^]DM3_eYkIeAI:z;FSRA3
+Z0 dC:\Program Files\IC_Contest\IC_Contest_University\2018
+Z1 w1521193583
+Z2 8testfixture.v
+Z3 Ftestfixture.v
+L0 190
+Z4 OL;L;10.1c;51
+Z5 !s108 1673542947.722000
+Z6 !s107 testfixture.v|
+Z7 !s90 testfixture.v|+define+tb3|+access+r|
+Z8 o+access+r -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z9 !s92 +define+tb3 +access+r -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@i@r@a@m
+!s100 R3_iF4=a?ABWfb70kTd4E3
+!s85 0
+!i10b 1
+vIROM
+VTm6D@FeKBTlED]LWI0ZaV0
+r1
+31
+IRZZZk]z<e[Jf8TE;?iIgV1
+Z10 dC:\Program Files\IC_Contest\IC_Contest_University\2018
+R1
+R2
+R3
+L0 165
+R4
+R5
+R6
+R7
+R8
+R9
+n@i@r@o@m
+!s100 aLlko^?Q4kz[Q@<f>TNO?1
+!s85 0
+!i10b 1
+vLCD_CTRL
+VAc7nUJUXE4>kFkZbj8lS^2
+r1
+!s85 0
+31
+!s100 cSV8NJcz_<bJBdBj4ZLH^3
+I18_8TmhHOPfB8fOch:n?V2
+R10
+w1673543004
+8C:/Program Files/IC_Contest/IC_Contest_University/2018/LCD_CTRL.v
+FC:/Program Files/IC_Contest/IC_Contest_University/2018/LCD_CTRL.v
+L0 1
+R4
+!s90 -reportprogress|300|-work|work|-vopt|C:/Program Files/IC_Contest/IC_Contest_University/2018/LCD_CTRL.v|
+o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@l@c@d_@c@t@r@l
+!i10b 1
+!s108 1673543080.179000
+!s107 C:/Program Files/IC_Contest/IC_Contest_University/2018/LCD_CTRL.v|
+vtest
+ViYi1S7iTl]5NUC4OOjAFG3
+r1
+31
+IKC9G^cVDgQ229Q8AkWYX>0
+R10
+R1
+R2
+R3
+L0 26
+R4
+R5
+R6
+R7
+R8
+R9
+!s100 LkNOE0Vj5adW9UGI1fY7H3
+!s85 0
+!i10b 1

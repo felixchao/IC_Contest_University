@@ -1,4 +1,18 @@
-{C:/Program Files/0117/2021_univ_cell/geofence.v} {1 {vlog -work work -vopt {C:/Program Files/0117/2021_univ_cell/geofence.v}
+{C:/Program Files/IC_Contest/IC_Contest_University/2021_univ_cell/tb.sv} {1 {vlog -work work -vopt -sv {C:/Program Files/IC_Contest/IC_Contest_University/2021_univ_cell/tb.sv}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module testfixture
+
+Top level modules:
+	testfixture
+
+} {} {}} {C:/Program Files/0117/2021_univ_cell/geofence.v} {1 {vlog -work work -vopt {C:/Program Files/0117/2021_univ_cell/geofence.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module geofence
+
+Top level modules:
+	geofence
+
+} {} {}} {C:/Program Files/IC_Contest/IC_Contest_University/2021_univ_cell/geofence.v} {1 {vlog -work work -vopt {C:/Program Files/IC_Contest/IC_Contest_University/2021_univ_cell/geofence.v}
 Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
 -- Compiling module geofence
 

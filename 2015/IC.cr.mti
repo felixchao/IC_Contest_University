@@ -5,6 +5,20 @@ Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
 Top level modules:
 	SET
 
+} {} {}} {C:/Program Files/IC_Contest/IC_Contest_University/2015/testfixture.v} {1 {vlog -work work -vopt {C:/Program Files/IC_Contest/IC_Contest_University/2015/testfixture.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module testfixture1
+
+Top level modules:
+	testfixture1
+
+} {} {}} {C:/Program Files/IC_Contest/IC_Contest_University/2015/SET.v} {1 {vlog -work work -vopt {C:/Program Files/IC_Contest/IC_Contest_University/2015/SET.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module SET
+
+Top level modules:
+	SET
+
 } {} {}} {C:/Program Files/0117/ICC2015/testfixture.v} {1 {vlog -work work -vopt {C:/Program Files/0117/ICC2015/testfixture.v}
 Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
 -- Compiling module testfixture1

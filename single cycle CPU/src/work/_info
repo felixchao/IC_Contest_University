@@ -8,16 +8,16 @@ V?E5IbGG8jJKBmAR5BZCfN3
 r1
 31
 I=BLbSNCaUT=c6Uh9A0l:S0
-Z0 dC:\Program Files\IC_Contest\IC_Contest_University\F740XXXXX\src
-w1649816689
+Z0 dC:\Program Files\IC_Contest\IC_Contest_University\single cycle CPU\src
+w1649816770
 FCPU.v
-Z1 8C:/Program Files/IC_Contest/IC_Contest_University/F740XXXXX/src/top.v
-Z2 FC:/Program Files/IC_Contest/IC_Contest_University/F740XXXXX/src/top.v
+Z1 8C:/Program Files/IC_Contest/IC_Contest_University/single cycle CPU/src/top.v
+Z2 FC:/Program Files/IC_Contest/IC_Contest_University/single cycle CPU/src/top.v
 L0 1
 Z3 OL;L;10.1c;51
-Z4 !s108 1649816702.634000
-Z5 !s107 SRAM.v|CPU.v|C:/Program Files/IC_Contest/IC_Contest_University/F740XXXXX/src/top.v|
-Z6 !s90 -reportprogress|300|-work|work|-vopt|C:/Program Files/IC_Contest/IC_Contest_University/F740XXXXX/src/top.v|
+Z4 !s108 1651910468.146000
+Z5 !s107 SRAM.v|CPU.v|C:/Program Files/IC_Contest/IC_Contest_University/single cycle CPU/src/top.v|
+Z6 !s90 -reportprogress|300|-work|work|-vopt|C:/Program Files/IC_Contest/IC_Contest_University/single cycle CPU/src/top.v|
 Z7 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
 n@c@p@u
 !s85 0
@@ -29,7 +29,7 @@ r1
 !s85 0
 31
 I:QWU3S4z7l>7gZV8Bin=12
-Z8 dC:\Program Files\IC_Contest\IC_Contest_University\F740XXXXX\src
+Z8 dC:\Program Files\IC_Contest\IC_Contest_University\single cycle CPU\src
 Z9 w1644228495
 FSRAM.v
 R1
@@ -47,7 +47,7 @@ vtop
 VCS`:UbVMcNfF?nKfKBYYJ0
 r1
 31
-Ico:h3=MbWj@GEHE65`DEV3
+ICFoH<NUa=^k1NHi9i^2GN0
 R8
 R9
 R1
@@ -59,23 +59,23 @@ R5
 R6
 R7
 !s85 0
-!s100 ZZBob8KCI=Q90=`:d9I;L1
+!s100 b?]JI^:Ufc0m;fH`gNADK0
 !i10b 1
 vtop_tb
 VN7^ihbmI9enFg9D=Qco243
 r1
 31
-IMK08PRk[P>MYz:5PLaVBM1
+IS4HdoT4zBG>3R]Bg:QYFN1
 R8
 R9
-8C:/Program Files/IC_Contest/IC_Contest_University/F740XXXXX/src/top_tb.v
-FC:/Program Files/IC_Contest/IC_Contest_University/F740XXXXX/src/top_tb.v
+8C:/Program Files/IC_Contest/IC_Contest_University/single cycle CPU/src/top_tb.v
+FC:/Program Files/IC_Contest/IC_Contest_University/single cycle CPU/src/top_tb.v
 L0 14
 R3
 R7
 !s85 0
-!s100 ;JQbfeWazn]Y2?AXk1L`?2
-!s90 -reportprogress|300|-work|work|-vopt|C:/Program Files/IC_Contest/IC_Contest_University/F740XXXXX/src/top_tb.v|
 !i10b 1
-!s108 1649816702.750000
-!s107 C:/Program Files/IC_Contest/IC_Contest_University/F740XXXXX/src/top_tb.v|
+!s100 S`VPFd@RG>8I`QiJDzRFH3
+!s108 1651910468.210000
+!s107 C:/Program Files/IC_Contest/IC_Contest_University/single cycle CPU/src/top_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|C:/Program Files/IC_Contest/IC_Contest_University/single cycle CPU/src/top_tb.v|

@@ -1,0 +1,88 @@
+m255
+K3
+13
+cModel Technology
+dC:\modeltech64_10.1c\examples
+T_opt
+V9W3LI3E?h3@LSh5H8JMXb0
+04 6 4 work top_tb fast 0
+=9-002b67e21689-6278a98a-121-1520
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.1c;51
+vCPU
+IgmBES3N6d[Ha3l5KVV3SB2
+V?E5IbGG8jJKBmAR5BZCfN3
+Z0 dC:\Program Files\IC_Contest\IC_Contest_University\F740XXXXX (7)\F740XXXXX\src
+w1652074882
+FCPU.v
+Z1 8C:/Program Files/IC_Contest/IC_Contest_University/F740XXXXX (7)/F740XXXXX/src/top.v
+Z2 FC:/Program Files/IC_Contest/IC_Contest_University/F740XXXXX (7)/F740XXXXX/src/top.v
+L0 1
+Z3 OL;L;10.1c;51
+r1
+31
+Z4 !s108 1652074888.269000
+Z5 !s107 SRAM.v|CPU.v|C:/Program Files/IC_Contest/IC_Contest_University/F740XXXXX (7)/F740XXXXX/src/top.v|
+Z6 !s90 -reportprogress|300|-work|work|-vopt|C:/Program Files/IC_Contest/IC_Contest_University/F740XXXXX (7)/F740XXXXX/src/top.v|
+Z7 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@c@p@u
+!s100 UWMbd;[><l[oS=mLWNb6_0
+!i10b 1
+!s85 0
+vSRAM
+I:QWU3S4z7l>7gZV8Bin=12
+V]Kn;]lj`RWbZ;7b@mV1]g3
+Z8 dC:\Program Files\IC_Contest\IC_Contest_University\F740XXXXX (7)\F740XXXXX\src
+Z9 w1652009946
+FSRAM.v
+R1
+R2
+L0 3
+R3
+r1
+31
+R4
+R5
+R6
+R7
+n@s@r@a@m
+!s100 S@YfFGL8Ak3iXVNbE7mdc1
+!i10b 1
+!s85 0
+vtop
+IVXV7>S3YeIKhT:K_Akbc<3
+VCS`:UbVMcNfF?nKfKBYYJ0
+R8
+R9
+R1
+R2
+L0 6
+R3
+r1
+31
+R4
+R5
+R6
+R7
+!s100 3U6C[ggY4gh58GAFSTb;L1
+!i10b 1
+!s85 0
+vtop_tb
+IXa1mI=nflCM[o>V2hYPfU2
+VN7^ihbmI9enFg9D=Qco243
+R8
+R9
+8C:/Program Files/IC_Contest/IC_Contest_University/F740XXXXX (7)/F740XXXXX/src/top_tb.v
+FC:/Program Files/IC_Contest/IC_Contest_University/F740XXXXX (7)/F740XXXXX/src/top_tb.v
+L0 14
+R3
+r1
+31
+R7
+!s100 8PZHzgXWg1Sf1gK]_RP_h0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Program Files/IC_Contest/IC_Contest_University/F740XXXXX (7)/F740XXXXX/src/top_tb.v|
+!i10b 1
+!s85 0
+!s108 1652074888.369000
+!s107 C:/Program Files/IC_Contest/IC_Contest_University/F740XXXXX (7)/F740XXXXX/src/top_tb.v|
