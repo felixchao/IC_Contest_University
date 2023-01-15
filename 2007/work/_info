@@ -1,5 +1,6 @@
 m255
 K3
+z0
 13
 cModel Technology
 Z0 dC:\modeltech64_10.1c\examples
@@ -10,41 +11,43 @@ V_1B3jW[ed8QSZ;FaHD:OC2
 o-quiet -auto_acc_if_foreign -work work
 n@_opt
 OL;O;10.1c;51
-Z1 dC:\modeltech64_10.1c\examples
+R0
 vLCD_CTRL
-VB4TiS?<0<<PF?YAFGGC;Y3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
 r1
 !s85 0
 31
-IU5mbYZoN?K3cDJH`;]Znj3
-Z2 dC:\Program Files\IC_Contest\IC_Contest_University\2007
-w1645878127
-8C:/Program Files/IC_Contest/IC_Contest_University/2007/lcd_ctrl.v
-FC:/Program Files/IC_Contest/IC_Contest_University/2007/lcd_ctrl.v
-L0 1
-Z3 OL;L;10.1c;51
-Z4 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
-n@l@c@d_@c@t@r@l
-!s100 QQ5P=>@^?AUCGWCNDeE2b0
-!s108 1673429585.519000
-!s107 C:/Program Files/IC_Contest/IC_Contest_University/2007/lcd_ctrl.v|
-!s90 -reportprogress|300|-work|work|-vopt|C:/Program Files/IC_Contest/IC_Contest_University/2007/lcd_ctrl.v|
 !i10b 1
+!s100 lfZ_cGJ`zLaFN;m813<D03
+IU<Z7XK>]6Z6<FhFR:JBYz3
+Z2 dC:/Program Files/IC_Contest_University/2007
+w1673777038
+8C:/Program Files/IC_Contest_University/2007/lcd_ctrl.v
+FC:/Program Files/IC_Contest_University/2007/lcd_ctrl.v
+L0 1
+Z3 OL;L;10.4;61
+!s108 1673777104.336000
+!s107 C:/Program Files/IC_Contest_University/2007/lcd_ctrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program Files/IC_Contest_University/2007/lcd_ctrl.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@l@c@d_@c@t@r@l
 vtest
-VEN<0k3_TMi:E4aP^Jghol3
+R1
 r1
+!s85 0
 31
-IEGe2A]A^9E<QN]6:?@F@m1
+!i10b 1
+!s100 >HB<XXA?Y=OLT>5e9NBPL2
+IhGB=Mnh;hikdg`?i8UeAF0
 R2
-w1645245031
-8C:/Program Files/IC_Contest/IC_Contest_University/2007/testfixture.v
-FC:/Program Files/IC_Contest/IC_Contest_University/2007/testfixture.v
+w1673777097
+8C:/Program Files/IC_Contest_University/2007/testfixture.v
+FC:/Program Files/IC_Contest_University/2007/testfixture.v
 L0 8
 R3
+!s108 1673777104.380000
+!s107 C:/Program Files/IC_Contest_University/2007/testfixture.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program Files/IC_Contest_University/2007/testfixture.v|
+!i113 0
 R4
-!s85 0
-!i10b 1
-!s100 M@K=m6XN?z7?XKV2lAhHf2
-!s108 1673429585.621000
-!s107 C:/Program Files/IC_Contest/IC_Contest_University/2007/testfixture.v|
-!s90 -reportprogress|300|-work|work|-vopt|C:/Program Files/IC_Contest/IC_Contest_University/2007/testfixture.v|

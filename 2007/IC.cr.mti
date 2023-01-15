@@ -1,9 +1,16 @@
-{C:/Program Files/0117/ICC2007/testfixture.v} {1 {vlog -work work -vopt {C:/Program Files/0117/ICC2007/testfixture.v}
-Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+{C:/Program Files/IC_Contest_University/2007/testfixture.v} {1 {vlog -work work -vopt -stats=none {C:/Program Files/IC_Contest_University/2007/testfixture.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module test
 
 Top level modules:
 	test
+
+} {} {}} {C:/Program Files/IC_Contest_University/2007/lcd_ctrl.v} {1 {vlog -work work -vopt -stats=none {C:/Program Files/IC_Contest_University/2007/lcd_ctrl.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module LCD_CTRL
+
+Top level modules:
+	LCD_CTRL
 
 } {} {}} {C:/Program Files/0117/ICC2007/lcd_ctrl.v} {1 {vlog -work work -vopt {C:/Program Files/0117/ICC2007/lcd_ctrl.v}
 Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
@@ -12,7 +19,7 @@ Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
 Top level modules:
 	LCD_CTRL
 
-} {} {}} {C:/Program Files/IC_Contest/IC_Contest_University/2007/testfixture.v} {1 {vlog -work work -vopt {C:/Program Files/IC_Contest/IC_Contest_University/2007/testfixture.v}
+} {} {}} {C:/Program Files/0117/ICC2007/testfixture.v} {1 {vlog -work work -vopt {C:/Program Files/0117/ICC2007/testfixture.v}
 Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
 -- Compiling module test
 
@@ -25,5 +32,12 @@ Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
 
 Top level modules:
 	LCD_CTRL
+
+} {} {}} {C:/Program Files/IC_Contest/IC_Contest_University/2007/testfixture.v} {1 {vlog -work work -vopt {C:/Program Files/IC_Contest/IC_Contest_University/2007/testfixture.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module test
+
+Top level modules:
+	test
 
 } {} {}}

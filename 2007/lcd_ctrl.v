@@ -9,8 +9,8 @@ output   reg    output_valid;
 output   reg    busy;
 
 reg [7:0] map [63:0];
-reg [2:0] originx;
-reg [2:0] originy;
+reg [5:0] originx;
+reg [5:0] originy;
 reg multi;
 reg [6:0] cnt;
 reg [3:0] state;
@@ -88,38 +88,7 @@ begin
         end
         else
         begin
-        if(discnt == 0)
-          dataout <= map[originy*8+originx];
-        else if(discnt == 1) 
-          dataout <= map[originy*8+originx+1];
-        else if(discnt == 2) 
-          dataout <= map[originy*8+originx+2];
-        else if(discnt == 3) 
-          dataout <= map[originy*8+originx+3];
-        else if(discnt == 4) 
-          dataout <= map[(originy+1)*8+originx];
-        else if(discnt == 5) 
-          dataout <= map[(originy+1)*8+originx+1];
-        else if(discnt == 6) 
-          dataout <= map[(originy+1)*8+originx+2];
-        else if(discnt == 7) 
-          dataout <= map[(originy+1)*8+originx+3];
-        else if(discnt == 8) 
-          dataout <= map[(originy+2)*8+originx];
-        else if(discnt == 9) 
-          dataout <= map[(originy+2)*8+originx+1];
-        else if(discnt == 10) 
-          dataout <= map[(originy+2)*8+originx+2];
-        else if(discnt == 11) 
-          dataout <= map[(originy+2)*8+originx+3];
-        else if(discnt == 12) 
-          dataout <= map[(originy+3)*8+originx];
-        else if(discnt == 13) 
-          dataout <= map[(originy+3)*8+originx+1];
-        else if(discnt == 14) 
-          dataout <= map[(originy+3)*8+originx+2];
-        else if(discnt == 15) 
-          dataout <= map[(originy+3)*8+originx+3];
+        dataout <= map[((originy+discnt[3:2])<<3) + originx + discnt[1:0]];
         discnt <= discnt + 1;
         end
         end

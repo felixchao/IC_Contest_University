@@ -1,0 +1,15 @@
+{C:/Program Files/IC_Contest_University/ICC2008/2008/tb.v} {1 {vlog -work work -vopt -stats=none {C:/Program Files/IC_Contest_University/ICC2008/2008/tb.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} {C:/Program Files/IC_Contest_University/ICC2008/2008/lcd_ctrl.v} {1 {vlog -work work -vopt -stats=none {C:/Program Files/IC_Contest_University/ICC2008/2008/lcd_ctrl.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module LCD_CTRL
+
+Top level modules:
+	LCD_CTRL
+
+} {} {}}

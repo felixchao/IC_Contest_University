@@ -1,12 +1,13 @@
 $date
-	Wed Jan 11 17:33:45 2023
+	Sun Jan 15 18:05:08 2023
 $end
 $version
-	ModelSim Version 10.1c
+	ModelSim Version 10.4
 $end
 $timescale
 	10ps
 $end
+
 $scope module test $end
 $var parameter 32 ! IMAGE_N_PAT $end
 $var parameter 32 " CMD_N_PAT $end
@@ -35,6 +36,7 @@ $var integer 32 8 out_f $end
 $var integer 32 9 err $end
 $var integer 32 : pattern_num $end
 $var reg 1 ; over $end
+
 $scope module top $end
 $var wire 1 < clk $end
 $var wire 1 = reset $end
@@ -53,8 +55,8 @@ $var wire 1 I cmd_valid $end
 $var reg 8 J dataout [7:0] $end
 $var reg 1 K output_valid $end
 $var reg 1 L busy $end
-$var reg 3 M originx [2:0] $end
-$var reg 3 N originy [2:0] $end
+$var reg 6 M originx [5:0] $end
+$var reg 6 N originy [5:0] $end
 $var reg 1 O multi $end
 $var reg 7 P cnt [6:0] $end
 $var reg 4 Q state [3:0] $end
