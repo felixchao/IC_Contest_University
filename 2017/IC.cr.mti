@@ -1,0 +1,20 @@
+{C:/Program Files/IC_Contest_University/2017/testfixture.v} {0 {vlog -work work -vopt -stats=none {C:/Program Files/IC_Contest_University/2017/testfixture.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module testfixture
+** Error: C:/Program Files/IC_Contest_University/2017/testfixture.v(21): (vlog-2163) Macro `FWEXP is undefined.
+
+** Error: C:/Program Files/IC_Contest_University/2017/testfixture.v(24): (vlog-2163) Macro `BCEXP is undefined.
+
+-- Compiling module sti_ROM
+** Error: C:/Program Files/IC_Contest_University/2017/testfixture.v(208): (vlog-2163) Macro `PAT is undefined.
+
+-- Compiling module res_RAM
+
+} {4.0 5.0 6.0 7.0 9.0 10.0} {}} {C:/Program Files/IC_Contest_University/2017/DT.v} {1 {vlog -work work -vopt -stats=none {C:/Program Files/IC_Contest_University/2017/DT.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module DT
+
+Top level modules:
+	DT
+
+} {} {}}
