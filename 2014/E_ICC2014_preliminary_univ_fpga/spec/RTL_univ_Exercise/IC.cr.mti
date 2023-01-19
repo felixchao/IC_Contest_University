@@ -1,0 +1,15 @@
+{C:/Program Files/IC_Contest_University/2014/E_ICC2014_preliminary_univ_fpga/spec/RTL_univ_Exercise/STI_DAC.v} {1 {vlog -work work -vopt -stats=none {C:\Program Files\IC_Contest_University\2014\E_ICC2014_preliminary_univ_fpga\spec\RTL_univ_Exercise\STI_DAC.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module STI_DAC
+
+Top level modules:
+	STI_DAC
+
+} {} {}} {C:/Program Files/IC_Contest_University/2014/E_ICC2014_preliminary_univ_fpga/spec/RTL_univ_Exercise/testfixture.v} {1 {vlog -work work -vopt -stats=none {C:/Program Files/IC_Contest_University/2014/E_ICC2014_preliminary_univ_fpga/spec/RTL_univ_Exercise/testfixture.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module testfixture
+
+Top level modules:
+	testfixture
+
+} {} {}}

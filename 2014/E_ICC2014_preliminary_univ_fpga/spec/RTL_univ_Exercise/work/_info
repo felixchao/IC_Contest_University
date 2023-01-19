@@ -1,0 +1,49 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Program Files/IC_Contest_University/2017
+vSTI_DAC
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 42kA84_SSHNJPU[CjKMfJ2
+IWT9;jd3WZbd^M0Ld1jDR22
+Z1 dC:/Program Files/IC_Contest_University/2014/E_ICC2014_preliminary_univ_fpga/spec/RTL_univ_Exercise
+w1674121540
+8C:\Program Files\IC_Contest_University\2014\E_ICC2014_preliminary_univ_fpga\spec\RTL_univ_Exercise\STI_DAC.v
+FC:\Program Files\IC_Contest_University\2014\E_ICC2014_preliminary_univ_fpga\spec\RTL_univ_Exercise\STI_DAC.v
+L0 1
+Z2 OL;L;10.4;61
+!s108 1674121738.052000
+!s107 C:\Program Files\IC_Contest_University\2014\E_ICC2014_preliminary_univ_fpga\spec\RTL_univ_Exercise\STI_DAC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:\Program Files\IC_Contest_University\2014\E_ICC2014_preliminary_univ_fpga\spec\RTL_univ_Exercise\STI_DAC.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@s@t@i_@d@a@c
+vtestfixture
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 1880BZ>C^mP:SE9<[@Gkl2
+IK4IIaW1f87o9JLfR85Rhi1
+R1
+w1394696408
+8C:/Program Files/IC_Contest_University/2014/E_ICC2014_preliminary_univ_fpga/spec/RTL_univ_Exercise/testfixture.v
+FC:/Program Files/IC_Contest_University/2014/E_ICC2014_preliminary_univ_fpga/spec/RTL_univ_Exercise/testfixture.v
+L0 3
+R2
+!s108 1674121738.002000
+!s107 C:/Program Files/IC_Contest_University/2014/E_ICC2014_preliminary_univ_fpga/spec/RTL_univ_Exercise/testfixture.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program Files/IC_Contest_University/2014/E_ICC2014_preliminary_univ_fpga/spec/RTL_univ_Exercise/testfixture.v|
+!i113 0
+R3
