@@ -1,0 +1,48 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Program Files/IC_Contest_University/2014/E_ICC2014_preliminary_univ_fpga/spec/RTL_univ_Exercise
+vtest
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 fcH>0cG_fFBT>Q2Kn?Z8j1
+Io<JeladK;5FR_]kB5iWG[1
+Z1 dC:/Program Files/IC_Contest_University/2006/src
+w1674134166
+8C:/Program Files/IC_Contest_University/2006/src/testfixture.v
+FC:/Program Files/IC_Contest_University/2006/src/testfixture.v
+L0 9
+Z2 OL;L;10.4;61
+!s108 1674140823.196000
+!s107 C:/Program Files/IC_Contest_University/2006/src/testfixture.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program Files/IC_Contest_University/2006/src/testfixture.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vtriangle
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 7HKMXN4L68Ff:ee<7SAWd0
+IaUAlg13Ok[fc>2@8Q<5Je2
+R1
+w1674140815
+8C:/Program Files/IC_Contest_University/2006/src/triangle.v
+FC:/Program Files/IC_Contest_University/2006/src/triangle.v
+L0 1
+R2
+!s108 1674140823.145000
+!s107 C:/Program Files/IC_Contest_University/2006/src/triangle.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program Files/IC_Contest_University/2006/src/triangle.v|
+!i113 0
+R3

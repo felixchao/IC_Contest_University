@@ -1,0 +1,16 @@
+0000      //The expected pattern of FFT_PE (imag) , 0: 000
+0000      //The expected pattern of FFT_PE (imag) , 1: 000
+0026      //The expected pattern of FFT_PE (imag) , 2: 1.484375e-001
+FFDB      //The expected pattern of FFT_PE (imag) , 3: -1.445313e-001
+0075      //The expected pattern of FFT_PE (imag) , 4: 4.570313e-001
+FFF2      //The expected pattern of FFT_PE (imag) , 5: -5.468750e-002
+000F      //The expected pattern of FFT_PE (imag) , 6: 5.859375e-002
+FF8C      //The expected pattern of FFT_PE (imag) , 7: -4.531250e-001
+FAAB      //The expected pattern of FFT_PE (imag) , 8: -5.332031e+000
+FFFA      //The expected pattern of FFT_PE (imag) , 9: -2.343750e-002
+0018      //The expected pattern of FFT_PE (imag) , 10: 9.375000e-002
+FFC7      //The expected pattern of FFT_PE (imag) , 11: -2.226563e-001
+003A      //The expected pattern of FFT_PE (imag) , 12: 2.265625e-001
+FFE9      //The expected pattern of FFT_PE (imag) , 13: -8.984375e-002
+0007      //The expected pattern of FFT_PE (imag) , 14: 2.734375e-002
+0554      //The expected pattern of FFT_PE (imag) , 15: 5.328125e+000

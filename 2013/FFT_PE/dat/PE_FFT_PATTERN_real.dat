@@ -1,0 +1,16 @@
+002D      //The input pattern of FFT_PE (real) , 0: 1.757813e-001
+0058      //The input pattern of FFT_PE (real) , 1: 3.437500e-001
+FFCF      //The input pattern of FFT_PE (real) , 2: -1.914063e-001
+0000      //The input pattern of FFT_PE (real) , 3: 000
+FFB6      //The input pattern of FFT_PE (real) , 4: -2.890625e-001
+FFE1      //The input pattern of FFT_PE (real) , 5: -1.210938e-001
+FFB6      //The input pattern of FFT_PE (real) , 6: -2.890625e-001
+001F      //The input pattern of FFT_PE (real) , 7: 1.210938e-001
+02BE      //The input pattern of FFT_PE (real) , 8: 2.742188e+000
+02EA      //The input pattern of FFT_PE (real) , 9: 2.914063e+000
+FFCA      //The input pattern of FFT_PE (real) , 10: -2.109375e-001
+0009      //The input pattern of FFT_PE (real) , 11: 3.515625e-002
+FFCA      //The input pattern of FFT_PE (real) , 12: -2.109375e-001
+FFF7      //The input pattern of FFT_PE (real) , 13: -3.515625e-002
+02BE      //The input pattern of FFT_PE (real) , 14: 2.742188e+000
+FD16      //The input pattern of FFT_PE (real) , 15: -2.914063e+000

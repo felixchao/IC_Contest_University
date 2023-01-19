@@ -1,0 +1,16 @@
+0000      //The input pattern of FFT_PE (imag) , 0: 000
+0000      //The input pattern of FFT_PE (imag) , 1: 000
+0000      //The input pattern of FFT_PE (imag) , 2: 000
+0026      //The input pattern of FFT_PE (imag) , 3: 1.484375e-001
+0033      //The input pattern of FFT_PE (imag) , 4: 1.992188e-001
+0042      //The input pattern of FFT_PE (imag) , 5: 2.578125e-001
+FFCD      //The input pattern of FFT_PE (imag) , 6: -1.992188e-001
+0042      //The input pattern of FFT_PE (imag) , 7: 2.578125e-001
+FD52      //The input pattern of FFT_PE (imag) , 8: -2.679688e+000
+FD59      //The input pattern of FFT_PE (imag) , 9: -2.652344e+000
+FFEF      //The input pattern of FFT_PE (imag) , 10: -6.640625e-002
+0029      //The input pattern of FFT_PE (imag) , 11: 1.601563e-001
+0011      //The input pattern of FFT_PE (imag) , 12: 6.640625e-002
+0029      //The input pattern of FFT_PE (imag) , 13: 1.601563e-001
+02AE      //The input pattern of FFT_PE (imag) , 14: 2.679688e+000
+FD59      //The input pattern of FFT_PE (imag) , 15: -2.652344e+000

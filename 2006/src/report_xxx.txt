@@ -1,0 +1,10 @@
+隊號(Team number): 
+
+使用之HDL名稱: 
+RTL設計檔: triangle.v, 
+Post-layout gate-level: 
+Report: report_xxx.txt(xxx請逕行修改)
+
+-----備註事項--------------------------------------------------------
+RTL設計檔之Top module為triangle.v
+(備註事項依各參賽隊伍的實際設計情況填寫)

@@ -1,0 +1,16 @@
+0085      //The expected pattern of FFT_PE (real) , 0: 5.195313e-001
+FFD5      //The expected pattern of FFT_PE (real) , 1: -1.679688e-001
+FFCF      //The expected pattern of FFT_PE (real) , 2: -1.914063e-001
+FFCF      //The expected pattern of FFT_PE (real) , 3: -1.914063e-001
+FF97      //The expected pattern of FFT_PE (real) , 4: -4.101563e-001
+FFD5      //The expected pattern of FFT_PE (real) , 5: -1.679688e-001
+FFD5      //The expected pattern of FFT_PE (real) , 6: -1.679688e-001
+FF97      //The expected pattern of FFT_PE (real) , 7: -4.101563e-001
+05A8      //The expected pattern of FFT_PE (real) , 8: 5.656250e+000
+FFD4      //The expected pattern of FFT_PE (real) , 9: -1.718750e-001
+FFD3      //The expected pattern of FFT_PE (real) , 10: -1.757813e-001
+FFC1      //The expected pattern of FFT_PE (real) , 11: -2.460938e-001
+FFC1      //The expected pattern of FFT_PE (real) , 12: -2.460938e-001
+FFD3      //The expected pattern of FFT_PE (real) , 13: -1.757813e-001
+FFD4      //The expected pattern of FFT_PE (real) , 14: -1.718750e-001
+05A8      //The expected pattern of FFT_PE (real) , 15: 5.656250e+000
