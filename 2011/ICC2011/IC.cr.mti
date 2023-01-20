@@ -1,0 +1,36 @@
+{C:/Program Files/IC_Contest_University/2011/ICC2011/lcd_ctrl.v} {1 {vlog -work work -vopt -stats=none {C:/Program Files/IC_Contest_University/2011/ICC2011/lcd_ctrl.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module LCD_CTRL
+
+Top level modules:
+	LCD_CTRL
+
+} {} {}} {C:/Program Files/IC_Contest_University/2011/ICC2011/testfixture.v} {0 {vlog -work work -vopt -stats=none {C:/Program Files/IC_Contest_University/2011/ICC2011/testfixture.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module IRB
+-- Compiling module IROM
+-- Compiling module irom
+** Error: ** while parsing file included at C:/Program Files/IC_Contest_University/2011/ICC2011/testfixture.v(18)
+** at IROM.v(153): (vlog-2163) Macro `IMAGE is undefined.
+
+-- Compiling module test
+** Error: C:/Program Files/IC_Contest_University/2011/ICC2011/testfixture.v(66): (vlog-2163) Macro `CMD is undefined.
+
+** Error: C:/Program Files/IC_Contest_University/2011/ICC2011/testfixture.v(67): (vlog-2163) Macro `EXPECT is undefined.
+
+
+} {6.0 7.0 10.0 11.0 12.0 13.0} {}} {C:/Program Files/IC_Contest_University/2011/ICC2011/IROM.v} {0 {vlog -work work -vopt -stats=none {C:/Program Files/IC_Contest_University/2011/ICC2011/IROM.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module IROM
+-- Compiling module irom
+** Error: C:/Program Files/IC_Contest_University/2011/ICC2011/IROM.v(153): (vlog-2163) Macro `IMAGE is undefined.
+
+
+} {5.0 6.0} {}} {C:/Program Files/IC_Contest_University/2011/ICC2011/IRB.v} {1 {vlog -work work -vopt -stats=none {C:/Program Files/IC_Contest_University/2011/ICC2011/IRB.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module IRB
+
+Top level modules:
+	IRB
+
+} {} {}}
