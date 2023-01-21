@@ -12,7 +12,7 @@ output valid;
 reg match;
 reg [4:0] match_index;
 reg valid;
-reg [3:0] state, Nextstate;
+reg [2:0] state, Nextstate;
 reg [7:0] string [31:0];
 reg [7:0] pattern [8:0];
 reg [5:0] cs;
@@ -21,8 +21,8 @@ reg [5:0] lens;
 reg [5:0] lenp;
 reg [7:0] count;
 reg store;
-integer  i;
-integer  j;
+reg [4:0] i,j;
+
 
 
 parameter Load = 0;
@@ -211,14 +211,14 @@ begin
 
 
         Match: begin
-                    // match <= 1;
+                    match <= 1;
                     valid <= 1;
                     i <= 0;
                     j <= 0;
                end
         
         NotMatch: begin
-                    // match <= 0;
+                    match <= 0;
                     valid <= 1;
                     i <= 0;
                     j <= 0;
@@ -320,25 +320,5 @@ begin
      endcase
 end
 
-//Combinational Circuit
-always@(*)
-begin
-    case(state)
-    Load: begin
-              match = match;
-          end
-    Match:begin
-          match = 1;
-          end
-    NotMatch: begin
-              match = 0;
-              end
-
-    default: begin
-            match = 0;
-            end
-
-    endcase
-end
 
 endmodule
