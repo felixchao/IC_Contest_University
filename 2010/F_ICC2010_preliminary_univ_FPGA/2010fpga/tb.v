@@ -1,4 +1,4 @@
-`define tb1
+`define tb2
 
 `ifdef tb1
    `define INFILE_RB1_ini "tb1_RB1_ini.dat"

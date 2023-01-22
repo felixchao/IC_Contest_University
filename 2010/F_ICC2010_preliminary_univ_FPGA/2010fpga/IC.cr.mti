@@ -1,0 +1,24 @@
+{C:/Program Files/IC_Contest_University/2010/F_ICC2010_preliminary_univ_FPGA/2010fpga/tb.v} {1 {vlog -work work -vopt -stats=none {C:/Program Files/IC_Contest_University/2010/F_ICC2010_preliminary_univ_FPGA/2010fpga/tb.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module RB1
+-- Compiling module RB2
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} {C:/Program Files/IC_Contest_University/2010/F_ICC2010_preliminary_univ_FPGA/2010fpga/S1.v} {1 {vlog -work work -vopt -stats=none {C:/Program Files/IC_Contest_University/2010/F_ICC2010_preliminary_univ_FPGA/2010fpga/S1.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module S1
+
+Top level modules:
+	S1
+
+} {} {}} {C:/Program Files/IC_Contest_University/2010/F_ICC2010_preliminary_univ_FPGA/2010fpga/S2.v} {1 {vlog -work work -vopt -stats=none {C:/Program Files/IC_Contest_University/2010/F_ICC2010_preliminary_univ_FPGA/2010fpga/S2.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module S2
+
+Top level modules:
+	S2
+
+} {} {}}
