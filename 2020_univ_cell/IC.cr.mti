@@ -1,9 +1,9 @@
-{C:/Program Files/IC_Contest_University/2020_univ_cell/SME.v} {1 {vlog -work work -vopt -stats=none {C:/Program Files/IC_Contest_University/2020_univ_cell/SME.v}
+{C:/Program Files/IC_Contest_University/2020_univ_cell/tb.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Program Files/IC_Contest_University/2020_univ_cell/tb.sv}
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module SME
+-- Compiling module testfixture
 
 Top level modules:
-	SME
+	testfixture
 
 } {} {}} {C:/Program Files/0117/2020_univ_cell/tb_term.sv} {1 {vlog -work work -vopt -sv {C:/Program Files/0117/2020_univ_cell/tb_term.sv}
 Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
@@ -12,14 +12,14 @@ Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
 Top level modules:
 	testfixture
 
-} {} {}} {C:/Program Files/IC_Contest_University/2020_univ_cell/tb.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Program Files/IC_Contest_University/2020_univ_cell/tb.sv}
+} {} {}} {C:/Program Files/IC_Contest_University/2020_univ_cell/SME.v} {1 {vlog -work work -vopt -stats=none {C:/Program Files/IC_Contest_University/2020_univ_cell/SME.v}
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module testfixture
+-- Compiling module SME
 
 Top level modules:
-	testfixture
+	SME
 
-} {} {}} {C:/Program Files/IC_Contest/IC_Contest_University/2020_univ_cell/tb_term.sv} {1 {vlog -work work -vopt -sv {C:/Program Files/IC_Contest/IC_Contest_University/2020_univ_cell/tb_term.sv}
+} {} {}} {C:/Program Files/0117/2020_univ_cell/tb.sv} {1 {vlog -work work -vopt -sv {C:/Program Files/0117/2020_univ_cell/tb.sv}
 Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
 -- Compiling module testfixture
 
@@ -33,14 +33,7 @@ Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
 Top level modules:
 	SME
 
-} {} {}} {C:/Program Files/0117/2020_univ_cell/tb.sv} {1 {vlog -work work -vopt -sv {C:/Program Files/0117/2020_univ_cell/tb.sv}
-Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
--- Compiling module testfixture
-
-Top level modules:
-	testfixture
-
-} {} {}} {C:/Program Files/IC_Contest/IC_Contest_University/2020_univ_cell/tb.sv} {1 {vlog -work work -vopt -sv {C:/Program Files/IC_Contest/IC_Contest_University/2020_univ_cell/tb.sv}
+} {} {}} {C:/Program Files/IC_Contest/IC_Contest_University/2020_univ_cell/tb_term.sv} {1 {vlog -work work -vopt -sv {C:/Program Files/IC_Contest/IC_Contest_University/2020_univ_cell/tb_term.sv}
 Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
 -- Compiling module testfixture
 
@@ -53,5 +46,12 @@ Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
 
 Top level modules:
 	SME
+
+} {} {}} {C:/Program Files/IC_Contest/IC_Contest_University/2020_univ_cell/tb.sv} {1 {vlog -work work -vopt -sv {C:/Program Files/IC_Contest/IC_Contest_University/2020_univ_cell/tb.sv}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module testfixture
+
+Top level modules:
+	testfixture
 
 } {} {}}
