@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Program Files/IC_Contest_University/2013/FFT_PE
+vFAS
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 IZ@OUN3@HZZ11P>S940;91
+I9F<]fGb:eBfc0S4G^G2Ca3
+Z1 dC:/Program Files/IC_Contest_University/2013/FAS
+w1674645213
+8C:/Program Files/IC_Contest_University/2013/FAS/FAS.v
+FC:/Program Files/IC_Contest_University/2013/FAS/FAS.v
+L0 3
+Z2 OL;L;10.4;61
+Z3 !s108 1674645325.965000
+Z4 !s107 ../FFT_PE/FFT_PE.v|C:/Program Files/IC_Contest_University/2013/FAS/FAS.v|
+Z5 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program Files/IC_Contest_University/2013/FAS/FAS.v|
+!i113 0
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@f@a@s
+vFFT_PE
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 c6Ta9B82b;HCU;@IMflZ12
+ITbYkY2bR34POC<^7<jWae3
+R1
+w1674644469
+8../FFT_PE/FFT_PE.v
+F../FFT_PE/FFT_PE.v
+L0 1
+R2
+R3
+R4
+R5
+!i113 0
+R6
+n@f@f@t_@p@e
+vtestfixture1
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 chc;29UW:;][0AIJ^ifK12
+Ih=n2?gNY5YQ>Y=aBJR8aj0
+R1
+w1674644943
+8C:/Program Files/IC_Contest_University/2013/FAS/testfixture1.v
+FC:/Program Files/IC_Contest_University/2013/FAS/testfixture1.v
+Z7 L0 11
+R2
+!s108 1674645326.044000
+!s107 C:/Program Files/IC_Contest_University/2013/FAS/testfixture1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program Files/IC_Contest_University/2013/FAS/testfixture1.v|
+!i113 0
+R6
+vtestfixture2
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 U8?gFR^b44hY<bch2kEXC0
+IW^PE`ILa6A5o6gV43AjBZ2
+R1
+w1363656948
+8C:/Program Files/IC_Contest_University/2013/FAS/testfixture2.v
+FC:/Program Files/IC_Contest_University/2013/FAS/testfixture2.v
+R7
+R2
+!s108 1674645325.857000
+!s107 C:/Program Files/IC_Contest_University/2013/FAS/testfixture2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program Files/IC_Contest_University/2013/FAS/testfixture2.v|
+!i113 0
+R6

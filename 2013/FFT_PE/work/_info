@@ -1,0 +1,51 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Program Files/IC_Contest_University/2010/F_ICC2010_preliminary_univ_FPGA/2010fpga
+vFFT_PE
+Z0 !s110 1674644287
+!i10b 1
+!s100 c6Ta9B82b;HCU;@IMflZ12
+ITU1HoK_bbaOG`bJB3SV5Q1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Program Files/IC_Contest_University/2013/FFT_PE
+w1674644244
+8C:/Program Files/IC_Contest_University/2013/FFT_PE/FFT_PE.v
+FC:/Program Files/IC_Contest_University/2013/FFT_PE/FFT_PE.v
+L0 1
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1674644287.852000
+!s107 C:/Program Files/IC_Contest_University/2013/FFT_PE/FFT_PE.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program Files/IC_Contest_University/2013/FFT_PE/FFT_PE.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@f@f@t_@p@e
+vtestfixture0
+R0
+!i10b 1
+!s100 o6kY0Pm7`SO[I=c1zUZUI3
+Ib0aVezR^SK]NVXi?mBZGI1
+R1
+R2
+w1363679856
+8C:/Program Files/IC_Contest_University/2013/FFT_PE/testfixture0.v
+FC:/Program Files/IC_Contest_University/2013/FFT_PE/testfixture0.v
+L0 11
+R3
+r1
+!s85 0
+31
+!s108 1674644287.804000
+!s107 C:/Program Files/IC_Contest_University/2013/FFT_PE/testfixture0.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program Files/IC_Contest_University/2013/FFT_PE/testfixture0.v|
+!i113 0
+R4
