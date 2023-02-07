@@ -1,0 +1,51 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Program Files/IC_Contest_University/B_ICC2018_priliminary_grad_cell_based
+vSET
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 HLdXVLY^RX5hazdac0@cT1
+IIIk`fj0Y9ILUA^QI<nnCX0
+Z1 dC:/Program Files/IC_Contest_University/B_ICC2015_priliminary_grad_cell_based
+w1675754218
+8SET.v
+FSET.v
+L0 3
+Z2 OL;L;10.4;61
+Z3 !s108 1675754489.045000
+Z4 !s107 SET.v|testfixture.v|
+Z5 !s90 -reportprogress|300|testfixture.v|SET.v|+define+MD2|
+!i113 0
+Z6 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 !s92 +define+MD2 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@s@e@t
+vtestfixture1
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 hf`[fT2kg5@:cz99N_7LB1
+I[2FYiQZ>Og`c30Hdd[`613
+R1
+w1424846583
+8testfixture.v
+Ftestfixture.v
+L0 7
+R2
+R3
+R4
+R5
+!i113 0
+R6
+R7
