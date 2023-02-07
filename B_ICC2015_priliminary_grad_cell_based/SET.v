@@ -1,4 +1,5 @@
-`define is_in(x,y,i,j,r) ((i-x)*(i-x) + (j-y)*(j-y) <= r*r)
+`define abs(x,i) ((x > i) ? (x - i) : (i - x))
+`define is_in(x,y,r) (x + y <= r)
 
 module SET ( clk , rst, en, central, radius, mode, busy, valid, candidate );
 
@@ -13,15 +14,16 @@ output reg [7:0] candidate;
 
 reg [1:0] state, NextState;
 wire in_A, in_B, in_C;
-reg [7:0] Ax, Ay, Bx, By, Cx, Cy;
-reg [7:0] ra, rb, rc;
-reg [7:0] i,j;
+reg [3:0] Ax, Ay, Bx, By, Cx, Cy;
+reg [3:0] ra, rb, rc;
+reg [3:0] i,j;
+reg [7:0] Axp,Bxp,Cxp,Ayp,Byp,Cyp,rap,rbp,rcp;
 reg [1:0] sets_mode;
 
 //Determine the (i,j) is in the sets
-assign in_A = `is_in(Ax,Ay,i,j,ra);
-assign in_B = `is_in(Bx,By,i,j,rb);
-assign in_C = `is_in(Cx,Cy,i,j,rc);
+assign in_A = `is_in(Axp,Ayp,rap);
+assign in_B = `is_in(Bxp,Byp,rbp);
+assign in_C = `is_in(Cxp,Cyp,rcp);
 
 parameter Detection = 0;
 parameter Counting = 1;
@@ -183,6 +185,122 @@ begin
 
       endcase
    end
+end
+
+//Counting power (replace the multiplier == better performance)
+always@(*)
+begin
+     case(`abs(Ax,i))
+     0: Axp = 0;
+     1: Axp = 1;
+     2: Axp = 4;
+     3: Axp = 9;
+     4: Axp = 16;
+     5: Axp = 25;
+     6: Axp = 36;
+     7: Axp = 49;
+     8: Axp = 64;
+     default: Axp = 0;
+     endcase
+
+    case(`abs(Ay, j))
+     0: Ayp = 0;
+     1: Ayp = 1;
+     2: Ayp = 4;
+     3: Ayp = 9;
+     4: Ayp = 16;
+     5: Ayp = 25;
+     6: Ayp = 36;
+     7: Ayp = 49;
+     8: Ayp = 64;
+     default: Ayp = 0;
+     endcase
+
+    case(`abs(Bx, i))
+     0: Bxp = 0;
+     1: Bxp = 1;
+     2: Bxp = 4;
+     3: Bxp = 9;
+     4: Bxp = 16;
+     5: Bxp = 25;
+     6: Bxp = 36;
+     7: Bxp = 49;
+     8: Bxp = 64;
+     default: Bxp = 0;
+     endcase
+
+    case(`abs(By, j))
+     0: Byp = 0;
+     1: Byp = 1;
+     2: Byp = 4;
+     3: Byp = 9;
+     4: Byp = 16;
+     5: Byp = 25;
+     6: Byp = 36;
+     7: Byp = 49;
+     8: Byp = 64;
+     default: Byp = 0;
+     endcase
+
+    case(`abs(Cx, i))
+     0: Cxp = 0;
+     1: Cxp = 1;
+     2: Cxp = 4;
+     3: Cxp = 9;
+     4: Cxp = 16;
+     5: Cxp = 25;
+     6: Cxp = 36;
+     7: Cxp = 49;
+     8: Cxp = 64;
+     default: Cxp = 0;
+     endcase
+
+
+    case(`abs(Cy, j))
+     0: Cyp = 0;
+     1: Cyp = 1;
+     2: Cyp = 4;
+     3: Cyp = 9;
+     4: Cyp = 16;
+     5: Cyp = 25;
+     6: Cyp = 36;
+     7: Cyp = 49;
+     8: Cyp = 64;
+     default: Cyp = 0;
+     endcase
+
+    case(ra)
+     1: rap = 1;
+     2: rap = 4;
+     3: rap = 9;
+     4: rap = 16;
+     5: rap = 25;
+     6: rap = 36;
+     7: rap = 49;
+     8: rap = 64;
+     endcase
+
+    case(rb)
+     1: rbp = 1;
+     2: rbp = 4;
+     3: rbp = 9;
+     4: rbp = 16;
+     5: rbp = 25;
+     6: rbp = 36;
+     7: rbp = 49;
+     8: rbp = 64;
+     endcase
+
+    case(rc)
+     1: rcp = 1;
+     2: rcp = 4;
+     3: rcp = 9;
+     4: rcp = 16;
+     5: rcp = 25;
+     6: rcp = 36;
+     7: rcp = 49;
+     8: rcp = 64;
+     endcase
 end
 
 //State Machine
