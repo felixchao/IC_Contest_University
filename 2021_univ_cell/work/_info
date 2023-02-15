@@ -1,5 +1,6 @@
 m255
 K3
+z0
 13
 cModel Technology
 dC:\Program Files\0117\IC2006_triangle
@@ -13,8 +14,8 @@ w1645956492
 8C:/Program Files/0117/2021_univ_cell/geofence.v
 FC:/Program Files/0117/2021_univ_cell/geofence.v
 L0 145
-Z0 OL;L;10.1c;51
-Z1 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+OL;L;10.1c;51
+o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
 n@d@e@t
 !s107 C:/Program Files/0117/2021_univ_cell/geofence.v|
 !s90 -reportprogress|300|-work|work|-vopt|C:/Program Files/0117/2021_univ_cell/geofence.v|
@@ -23,41 +24,43 @@ n@d@e@t
 !s85 0
 !i10b 1
 vgeofence
-VKX:<6a2?>1ki]HM:BSdb:3
+Z0 VDg1SIo80bB@j0V0VzS_@n1
 r1
 !s85 0
 31
-I1Lm:Ic7C]_D8G>QQH5`VT1
-Z2 dC:\Program Files\IC_Contest\IC_Contest_University\2021_univ_cell
-w1646208419
-8C:/Program Files/IC_Contest/IC_Contest_University/2021_univ_cell/geofence.v
-FC:/Program Files/IC_Contest/IC_Contest_University/2021_univ_cell/geofence.v
+!i10b 1
+!s100 TlPDDm:@gIKFBj8kB:61Y2
+I]FeUj6EIziZ>RmPm]D7BQ0
+Z1 dC:/Program Files/IC_Contest_University/2021_univ_cell
+w1675945779
+8C:/Program Files/IC_Contest_University/2021_univ_cell/geofence.v
+FC:/Program Files/IC_Contest_University/2021_univ_cell/geofence.v
 L0 1
-Z3 OL;L;10.1c;51
-R1
-!s100 `n494>;`4<QX=j^3VbLaC2
-!s90 -reportprogress|300|-work|work|-vopt|C:/Program Files/IC_Contest/IC_Contest_University/2021_univ_cell/geofence.v|
-!s108 1673435932.006000
-!s107 C:/Program Files/IC_Contest/IC_Contest_University/2021_univ_cell/geofence.v|
-!i10b 1
+Z2 OL;L;10.4;61
+!s108 1675945782.229000
+!s107 C:/Program Files/IC_Contest_University/2021_univ_cell/geofence.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program Files/IC_Contest_University/2021_univ_cell/geofence.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 vtestfixture
-DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
-VKBIIT=eCh7cJh[^JXBGX00
+DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+R0
 r1
-31
-I2[U3Sj><Sl=T`cbdGO4;a1
-S1
-R2
-w1644382195
-8C:/Program Files/IC_Contest/IC_Contest_University/2021_univ_cell/tb.sv
-FC:/Program Files/IC_Contest/IC_Contest_University/2021_univ_cell/tb.sv
-L0 7
-R3
-o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
 !s85 0
-!s100 YEjoUged5F^idW8[STddi1
-!s105 tb_sv_unit
-!s90 -reportprogress|300|-work|work|-vopt|-sv|C:/Program Files/IC_Contest/IC_Contest_University/2021_univ_cell/tb.sv|
+31
 !i10b 1
-!s108 1673435932.072000
-!s107 C:/Program Files/IC_Contest/IC_Contest_University/2021_univ_cell/tb.sv|
+!s100 gW<L1jM2iNXiG=[Gd8Z:a2
+IcKo>c>MFY_OLNcbz^I7zl2
+!s105 tb_sv_unit
+S1
+R1
+w1673693282
+8C:/Program Files/IC_Contest_University/2021_univ_cell/tb.sv
+FC:/Program Files/IC_Contest_University/2021_univ_cell/tb.sv
+L0 7
+R2
+!s108 1675945782.167000
+!s107 C:/Program Files/IC_Contest_University/2021_univ_cell/tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Program Files/IC_Contest_University/2021_univ_cell/tb.sv|
+!i113 0
+o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact

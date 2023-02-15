@@ -1,60 +1,64 @@
 m255
 K3
+z0
 13
 cModel Technology
 dC:\Program Files\0117\2020_univ_cell
 vLBP
-V=WF_G:>T3;R`a7@N@<S;l0
+Z0 VDg1SIo80bB@j0V0VzS_@n1
 r1
+!s85 0
 31
-IfzKVY0mXSTiNd]kAe2iWR1
-Z0 dC:\Program Files\IC_Contest\IC_Contest_University\2016\Exercise
-w1648520171
-8C:/Program Files/IC_Contest/IC_Contest_University/2016/Exercise/LBP.v
-FC:/Program Files/IC_Contest/IC_Contest_University/2016/Exercise/LBP.v
+!i10b 1
+!s100 nONf3i1KC?[Ne4jG[CFjV0
+IMa2_z>F6AEB4UeVYz=cB^3
+Z1 dC:/Program Files/IC_Contest_University/2016/Exercise
+w1675946948
+8C:/Program Files/IC_Contest_University/2016/Exercise/LBP.v
+FC:/Program Files/IC_Contest_University/2016/Exercise/LBP.v
 L0 3
-Z1 OL;L;10.1c;51
-Z2 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z2 OL;L;10.4;61
+!s108 1675946952.234000
+!s107 C:/Program Files/IC_Contest_University/2016/Exercise/LBP.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program Files/IC_Contest_University/2016/Exercise/LBP.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 n@l@b@p
-!s85 0
-!s100 VeMRKWz2jI:db2M`bB2`E1
-!s90 -reportprogress|300|-work|work|-vopt|C:/Program Files/IC_Contest/IC_Contest_University/2016/Exercise/LBP.v|
-!s108 1673431655.476000
-!s107 C:/Program Files/IC_Contest/IC_Contest_University/2016/Exercise/LBP.v|
-!i10b 1
 vlbp_mem
-V4^>^19e9minGgac6Q`VUB3
+R0
 r1
 !s85 0
 31
-I?zi=6jdN18]z^T>z4Z;Kl3
-Z3 dC:\Program Files\IC_Contest\IC_Contest_University\2016\Exercise
-Z4 w1673431649
-Z5 8C:\Program Files\IC_Contest\IC_Contest_University\2016\Exercise\testfixture.v
-Z6 FC:\Program Files\IC_Contest\IC_Contest_University\2016\Exercise\testfixture.v
-L0 134
-R1
-Z7 !s108 1673431655.552000
-Z8 !s107 C:\Program Files\IC_Contest\IC_Contest_University\2016\Exercise\testfixture.v|
-Z9 !s90 -reportprogress|300|-work|work|-vopt|C:\Program Files\IC_Contest\IC_Contest_University\2016\Exercise\testfixture.v|
-R2
 !i10b 1
-!s100 FESFmF;?RVklQT1ScDTd^0
-vtestfixture
-VA47mW?eGS^dWC?fbCnia03
-r1
-31
-IX[>0E9dE]2m[WWm7zY`YQ3
+!s100 hzn;9L7_jdf`C?WKg?;el3
+IFRA]54O<Y_WHomfRQ>3260
+R1
+Z4 w1673693282
+Z5 8C:/Program Files/IC_Contest_University/2016/Exercise/testfixture.v
+Z6 FC:/Program Files/IC_Contest_University/2016/Exercise/testfixture.v
+L0 134
+R2
+Z7 !s108 1675946952.173000
+Z8 !s107 C:/Program Files/IC_Contest_University/2016/Exercise/testfixture.v|
+Z9 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program Files/IC_Contest_University/2016/Exercise/testfixture.v|
+!i113 0
 R3
+vtestfixture
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 SPOQ6_fVXQz2?<SoB<F9L0
+IYnHZ[ko^A[QzRRVhCjZ5>1
+R1
 R4
 R5
 R6
 L0 10
-R1
+R2
 R7
 R8
 R9
-R2
-!s85 0
-!i10b 1
-!s100 aO<dAmfMz>cbmV=j24Wk;0
+!i113 0
+R3

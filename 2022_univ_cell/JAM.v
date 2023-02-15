@@ -16,7 +16,6 @@ reg [2:0] arr [7:0];
 reg [3:0] i;
 reg [3:0] count;
 reg has;
-reg isdone;
 reg [3:0] j;
 reg [6:0] temp;
 reg [9:0] total;
@@ -62,7 +61,6 @@ begin
         MatchCount <= 0;
         temp <= 101;
         MinCost <= 1023;
-        isdone <= 0;
         state <= Load;
         count <= 7;
         total <= 0;
@@ -248,13 +246,13 @@ begin
          end
 
     Pivot: begin
-                if(isdone)
-                begin
-                    NextState = Finish;
-                end
-                else if(has)
+                if(has)
                 begin
                     NextState = Replace;
+                end
+                else
+                begin
+                    NextState = Pivot;
                 end
            end
     Replace: begin
