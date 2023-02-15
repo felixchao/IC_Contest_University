@@ -18,7 +18,6 @@ reg [13:0] cpos;
 reg [3:0] count;
 reg [13:0] pixels;
 reg [7:0] mem [8:0];
-reg [7:0] sum;
 reg [6:0] r;
 
 
@@ -41,7 +40,7 @@ begin
         count <= 0;
         pixels <= 0;
         cpos <= 129;
-        sum <= 0;
+        lbp_data <= 0;
         r <= 1;
     end
     else
@@ -103,11 +102,11 @@ begin
         Process:  begin
                       if(mem[count] >= mem[8])
                       begin
-                          sum[count] <= 1;
+                          lbp_data[count] <= 1;
                       end
                       else
                       begin
-                          sum[count] <= 0;
+                          lbp_data[count] <= 0;
                       end
                       count <= count + 1;
                   end
@@ -124,7 +123,6 @@ begin
                         r <= r + 1;
                     end
                     lbp_addr <= cpos;
-                    lbp_data <= sum;
                     lbp_valid <= 1;
                     pixels <= pixels + 1;
                 end     
@@ -138,7 +136,6 @@ begin
                     begin
                       count <= 0;
                       lbp_valid <= 0;
-                      sum <= 0;
                     end
 
                 end
