@@ -1,0 +1,49 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Program Files/IC_Contest_University/2015_new
+vCONV
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 1iVX]EbUSVQRV20I24TjW1
+I<c>hKJUKJ4MP63DMG6mfS3
+Z1 dC:/Program Files/IC_Contest_University/B_ICC2019_priliminary_grad_cell_based
+w1677749081
+8C:/Program Files/IC_Contest_University/B_ICC2019_priliminary_grad_cell_based/CONV.v
+FC:/Program Files/IC_Contest_University/B_ICC2019_priliminary_grad_cell_based/CONV.v
+L0 4
+Z2 OL;L;10.4;61
+!s108 1677749882.774000
+!s107 C:/Program Files/IC_Contest_University/B_ICC2019_priliminary_grad_cell_based/CONV.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program Files/IC_Contest_University/B_ICC2019_priliminary_grad_cell_based/CONV.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@c@o@n@v
+vtestfixture
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 S[eziELk=;Eh;GzJnj;?n2
+IlH4KdkR^`03dAZ@[oXZaV1
+R1
+w1677749832
+8C:/Program Files/IC_Contest_University/B_ICC2019_priliminary_grad_cell_based/testfixture.v
+FC:/Program Files/IC_Contest_University/B_ICC2019_priliminary_grad_cell_based/testfixture.v
+L0 13
+R2
+!s108 1677749882.712000
+!s107 C:/Program Files/IC_Contest_University/B_ICC2019_priliminary_grad_cell_based/testfixture.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program Files/IC_Contest_University/B_ICC2019_priliminary_grad_cell_based/testfixture.v|
+!i113 0
+R3

@@ -1,0 +1,15 @@
+{C:/Program Files/IC_Contest_University/B_ICC2019_priliminary_grad_cell_based/testfixture.v} {1 {vlog -work work -vopt -stats=none {C:/Program Files/IC_Contest_University/B_ICC2019_priliminary_grad_cell_based/testfixture.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module testfixture
+
+Top level modules:
+	testfixture
+
+} {} {}} {C:/Program Files/IC_Contest_University/B_ICC2019_priliminary_grad_cell_based/CONV.v} {1 {vlog -work work -vopt -stats=none {C:/Program Files/IC_Contest_University/B_ICC2019_priliminary_grad_cell_based/CONV.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module CONV
+
+Top level modules:
+	CONV
+
+} {} {}}
