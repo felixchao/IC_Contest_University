@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Program Files/Digital IC/HW2/file
+vJAM
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 S@S703=`k`i3g:Y]=^kkd0
+Il9?FAP0hkDg=^JC13jWVE2
+Z1 dC:/Program Files/IC_Contest_University/2022_univ_cell_new
+w1679919345
+8JAM.v
+FJAM.v
+L0 1
+Z2 OL;L;10.4;61
+Z3 !s108 1679919385.492000
+Z4 !s107 tb.sv|JAM.v|
+Z5 !s90 -reportprogress|300|JAM.v|tb.sv|+define+P2|
+!i113 0
+Z6 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 !s92 +define+P2 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@j@a@m
+vtestfixture
+DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 SifeQge>niPIXJE6_3XEN3
+IYNghP3B<5S[BWl_14Tmo^2
+!s105 tb_sv_unit
+S1
+R1
+w1648458130
+8tb.sv
+Ftb.sv
+L0 18
+R2
+R3
+R4
+R5
+!i113 0
+R6
+R7

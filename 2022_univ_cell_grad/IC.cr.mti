@@ -1,0 +1,8 @@
+{C:/Program Files/IC_Contest_University/2022_univ_cell_new/tb.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Program Files/IC_Contest_University/2022_univ_cell_new/tb.sv}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module testfixture
+
+Top level modules:
+	testfixture
+
+} {} {}}
