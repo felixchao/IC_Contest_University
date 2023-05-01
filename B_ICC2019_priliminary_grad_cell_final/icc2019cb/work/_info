@@ -1,0 +1,51 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/modeltech64_10.4/examples
+vIOTDF
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 =njTIgM[O5g?f^GZc20CL3
+I7WRVTKlCm=1gA2bMHa97K0
+Z1 dC:/IC_Contest_University/B_ICC2019_priliminary_grad_cell_final/icc2019cb
+w1682152279
+8IOTDF.v
+FIOTDF.v
+L0 2
+Z2 OL;L;10.4;61
+Z3 !s108 1682152328.179000
+Z4 !s107 testfixture.v|IOTDF.v|
+Z5 !s90 -reportprogress|300|IOTDF.v|testfixture.v|+define+F2|
+!i113 0
+Z6 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 !s92 +define+F2 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@i@o@t@d@f
+vtest
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 4d_mheLIH_`MMm8OeWlmU3
+IjI<:eFgOKl2YV_oZUP<HH1
+R1
+w1682135873
+8testfixture.v
+Ftestfixture.v
+L0 12
+R2
+R3
+R4
+R5
+!i113 0
+R6
+R7

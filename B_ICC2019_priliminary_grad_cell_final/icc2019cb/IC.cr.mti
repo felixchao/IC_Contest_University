@@ -1,0 +1,8 @@
+C:/IC_Contest_University/B_ICC2019_priliminary_grad_cell_final/icc2019cb/testfixture.v {1 {vlog -work work -vopt -stats=none C:/IC_Contest_University/B_ICC2019_priliminary_grad_cell_final/icc2019cb/testfixture.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}}

@@ -1,0 +1,279 @@
+module LASER (
+input CLK,
+input RST,
+input [3:0] X,
+input [3:0] Y,
+output reg [3:0] C1X,
+output reg [3:0] C1Y,
+output reg [3:0] C2X,
+output reg [3:0] C2Y,
+output reg DONE);
+
+reg [2:0] state, NextState;
+reg [3:0] x [39:0];
+reg [3:0] y [39:0];
+reg [1:0] flag;
+reg [5:0] count;
+reg signed [8:0] c1x,c1y,c2x,c2y;
+reg [7:0] max_count, c, temp1;
+
+
+
+parameter Load = 0;
+parameter Determine = 1;
+parameter Circle2 = 2;
+parameter Circle1 = 3;
+parameter Finish = 4;
+parameter Reset = 5;
+
+
+wire is_inA = ((x[count] - c1x)*(x[count]- c1x) + (y[count] - c1y) * (y[count] - c1y)) <= 16;
+wire is_inB = ((x[count] - c2x)*(x[count]- c2x) + (y[count] - c2y) * (y[count] - c2y)) <= 16;
+
+
+always @(posedge CLK or posedge RST) 
+begin
+    if(RST)
+    begin
+       DONE <= 0;
+       count <= 0;
+       C1X <= 0;
+       C1Y <= 0;
+       C2X <= 0;
+       C2Y <= 0;
+       c1x <= 0;
+       c1y <= 0;
+       c2x <= 0;
+       c2y <= 0;
+       flag <= 0;
+       max_count <= 0;
+       c <= 0;
+       temp1 <= 0;
+       state <= Load;
+    end
+    else
+    begin
+        state <= NextState;
+
+        case(state)
+        Load:begin
+               
+               if(count == 39)
+               begin
+                  x[count] <= X;
+                  y[count] <= Y;
+                  count <= 0;
+                  c1x <= 0;
+                  c1y <= 0;
+               end
+               else
+               begin
+                  x[count] <= X;
+                  y[count] <= Y;
+                  count <= count + 1;
+               end
+
+             end
+
+        Determine:begin                     
+                     if(count == 40)
+                     begin
+                        if(max_count < c)
+                        begin
+                           max_count <= c;
+                           C1X <= c1x;
+                           C1Y <= c1y;
+                        end
+
+                        if(c1x == 15 && c1y == 15)
+                        begin
+                           if(max_count >= c)
+                           begin
+                             c1x <= C1X;
+                             c1y <= C1Y;
+                           end
+                           c2x <= 0;
+                           c2y <= 0;
+                        end
+                        else if(c1x == 15)
+                        begin
+                           c1x <= 0;
+                           c1y <= c1y + 1;
+                        end
+                        else
+                        begin
+                           c1x <= c1x + 1;
+                        end
+                        count <= 0;
+                        c <= 0;
+                     end
+                     else
+                     begin
+                        if(is_inA)
+                        begin
+                           c <= c + 1;
+                        end                         
+                        count <= count + 1;
+                     end
+                  end
+
+        Circle2:begin
+                   if(count == 40)
+                   begin
+                        if(max_count < c)
+                        begin
+                           max_count <= c;
+                           C2X <= c2x;
+                           C2Y <= c2y;
+                           flag <= 0;
+                        end
+
+                        if(c2x == 15 && c2y == 15)
+                        begin
+                           if(max_count >= c)
+                           begin
+                              c2x <= C2X;
+                              c2y <= C2Y;
+                           end         
+                           c1x <= 0;
+                           c1y <= 0;
+                           flag <= flag + 1;
+                        end
+                        else if(c2x == 15)
+                        begin
+                           c2x <= 0;
+                           c2y <= c2y + 1;
+                        end
+                        else
+                        begin
+                           c2x <= c2x + 1;
+                        end
+                        count <= 0;
+                        c <= 0;
+                   end
+                   else
+                   begin
+                    if(is_inB || is_inA)
+                    begin
+                        c <= c+1;
+                    end
+                    count <= count + 1;
+                   end
+                end
+
+        Circle1:begin
+                   if(count == 40)
+                   begin
+                        if(max_count < c)
+                        begin
+                           max_count <= c;
+                           C1X <= c1x;
+                           C1Y <= c1y;
+                           flag <= 0;
+                        end
+
+                        if(c1x == 15 && c1y == 15)
+                        begin
+                           if(max_count >= c)
+                           begin
+                              c1x <= C1X;
+                              c1y <= C1Y;
+                           end       
+                           c2x <= 0;
+                           c2y <= 0;                
+                           flag <= flag + 1;
+                        end
+                        else if(c1x == 15)
+                        begin
+                           c1x <= 0;
+                           c1y <= c1y + 1;
+                        end
+                        else
+                        begin
+                           c1x <= c1x + 1;
+                        end
+                        count <= 0;
+                        c <= 0;
+                   end
+                   else
+                   begin
+                    if(is_inB || is_inA)
+                    begin
+                        c <= c+1;
+                    end
+                    count <= count + 1;
+                   end
+                end
+
+        Finish:begin
+                 max_count <= 0;
+                 c <= 0;
+                 flag <= 0;
+                 c1x <= 0;
+                 c2x <= 0;
+                 c1y <= 0;
+                 c2y <= 0;
+                 DONE <= 1;
+               end
+
+         Reset:begin
+                  C1X <= 0;
+                  C2X <= 0;
+                  C1Y <= 0;
+                  C2Y <= 0;
+                  DONE <= 0;
+               end
+        endcase
+    end
+end
+
+
+
+always@(*)
+begin
+    case(state)
+    Load:begin
+           if(count == 39)
+              NextState = Determine;
+           else
+              NextState = Load;
+         end
+
+    Determine:begin
+                if(c1x == 15 && c1y == 15 && count == 40)
+                  NextState = Circle2;
+                else
+                  NextState = Determine;
+              end
+
+    Circle2:begin
+                if(flag > 1)
+                   NextState = Finish;
+                if(c2x == 15 && c2y == 15 && count == 40)
+                  NextState = Circle1;
+                else
+                  NextState = Circle2;
+            end
+
+    Circle1:begin
+                if(flag > 1)
+                  NextState = Finish;
+                else if(c1x == 15 && c1y == 15 && count == 40)
+                  NextState = Circle2;
+                else
+                  NextState = Circle1;
+            end
+
+    Finish:begin
+             NextState = Reset;
+            end
+    
+    Reset:begin
+             NextState = Load;
+          end
+    endcase
+end
+
+endmodule
+
+

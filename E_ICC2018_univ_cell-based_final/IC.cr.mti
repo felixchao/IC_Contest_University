@@ -1,0 +1,8 @@
+C:/IC_Contest_University/E_ICC2018_univ_cell-based_final/testbench.v {1 {vlog -work work -vopt -stats=none C:/IC_Contest_University/E_ICC2018_univ_cell-based_final/testbench.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module testfixture
+
+Top level modules:
+	testfixture
+
+} {} {}}
